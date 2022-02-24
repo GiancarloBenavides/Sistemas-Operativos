@@ -18,18 +18,18 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
     1. [Sistema de archivos][22]
     1. [Virtualización][23]
 1. [Clasificación][30]
-1. [Gestión][30]
-    1. [Procesos][30]
-    1. [Memoria][40]
-    1. [Archivos][50]
+1. [Gestión][41]
+    1. [Procesos][41]
+    1. [Memoria][42]
+    1. [Archivos][43]
 
-
-[11]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/11-Fundamentos
-[12]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/12-Antecedentes
-[13]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/13-Evolucion
-[21]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/21-Multitarea
-[22]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/22-Sistema-de-archivos
-[23]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/23-Virtualizacion
-[30]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/30-Procesos
-[40]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/40-Memoria
-[50]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/50-Archivos
+[11]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/11-Fundamentos
+[12]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/12-Antecedentes
+[13]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/13-Evolucion
+[21]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[22]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[23]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[30]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[41]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[42]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[43]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
