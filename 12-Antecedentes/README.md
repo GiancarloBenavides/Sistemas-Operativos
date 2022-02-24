@@ -24,7 +24,7 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 * Antes de [1950][2_0].
 * Diseño de [arquitecturas de hardware][2_1] con propósitos muy específicos.
 * Interacción directa de los [programas][2_2] y el hardware.
-* Procesamiento de instrucciones [secuencial][1_3].
+* Procesamiento de instrucciones [secuencial][2_3].
 * Típico de las [computadoras serie][2_4].
 * Programación en [lenguaje maquina][2_5].
 * Ejecución en [tiempo Real][2_6].
