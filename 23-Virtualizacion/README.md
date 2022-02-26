@@ -5,7 +5,7 @@
 ## Virtualización
 La virtualización utiliza software para imitar las características de un componente de un sistema informático y crear un entorno virtual que provea una solución similar al componente real.
 
-## Agenda
+## Agenda <📑>
 1. [Virtualización de datos](#1-virtualización-de-datos).
 1. [Virtualización de hardware](#1-virtualización-de-hardware).
 1. [virtualización de software](#2-contenerización).
@@ -22,11 +22,13 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 
 [1_0]:https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_de_datos
 
+
 ## 1.1. Características
 * Es una tecnología de integración de datos.
 * Normaliza fuentes de datos heterogéneas.
 * Ofrece la capacidad de aprovechar grandes volúmenes de datos.
 * Permite al usuario manipular los datos en tiempo real.
+
 
 ## 1.2. Diagrama de capas
 ![Capas de virtualización de datos](img/data-virtualization.svg "Fuentes de datos heterogéneas")
@@ -47,12 +49,33 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [(VM)][2_1]; es una capa de 
 [2_1]:https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
 
 
-## 2.1. Características
-* El __HOST__ o anfitrión es la máquina utilizada por el hipervisor.
-* El __GUEST__ o máquina invitada es la máquina virtual.
+## 2.1. Arquitectura ✔
+* El [__Host__][21_1] o anfitrión es la máquina utilizada por el hipervisor.
+* El [__Guest__][21_1] o máquina invitada es la máquina virtual.
+* La [__Asistencia por hardware__][21_3] mejora la eficiencia.
+* Las [__Instantáneas__][21_4] o copias temporal del estado del sistema.
+
+[21_1]:https://es.wikipedia.org/wiki/Host
+[21_2]:https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
+[21_3]:https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_x86#Soporte_hardware
+[21_4]:https://es.wikipedia.org/wiki/Copia_instant%C3%A1nea_de_volumen
 
 
-## 2.2 Tipos de Hipervisor
+## 2.2. Características ✔
+* Permite el despliegue de entornos seguros de ejecución.
+* Permite reducir costos y simplificar la gestión.
+* Permite la ampliación dinámica de las capacidades del hardware.
+* Permite La migración de instantáneas mejora la fiabilidad. 
+
+
+## 2.2 Tipos de Hipervisor ✔
+* [__Virtualización nativa:__][22_1] El hipervisor se ejecuta directamente sobre el hardware físico
+* [__Virtualización alojada:__][22_2] El hipervisor se ejecuta sobre un sistema operativo anfitrión.
+
+[22_1]:https://es.wikipedia.org/wiki/Hipervisor#Hipervisor_tipo_1
+[22_2]:https://es.wikipedia.org/wiki/Hipervisor#Hipervisor_tipo_2
+
+## 2.3 Diagrama de capas
 ![Hipervisor](img/type-hypervisors.svg "Tipos de hipervisores")
 
 <small>Papers: 
@@ -82,11 +105,23 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [(VM)][2_1]; es una capa de 
 # 3. Virtualización de software
 Un motor de contenedores o [CT][3_0] es una capa de software que permite realizar una virtualización a nivel de software y utilizar diferentes y aislados espacios de usuario compartiendo los mismos recursos de una aplicación o sistema operativo.
 
-* ><i>"Puedes tener la mejor tecnología, puedes tener el mejor modelo de negocio, pero si no sabes cómo contar tu historia; nada de eso importará. Nadie te verá."</i><br>
-<cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
+* ><i>"Los servidores físicos, privados o públicos son irrelevantes para el usuario final, Las nubes hin¡bridas se están convirtiendo en la solución predeterminada."</i><br>
+<cite style="display:block; text-align: right">[Paul Cormier](https://en.wikipedia.org/wiki/Paul_Cormier_(engineer))</cite>
 
 [3_0]:https://es.wikipedia.org/wiki/Hipervisor
 
+## 3.1. Características
+* Permite alojar distintos contenedores o CT.
+* Los CT pueden parecer computadoras reales, pero es una capa mas ligera.
+* Aislá aplicaciones del SO subyacente y de aplicaciones.
+* Posibilita las migraciones en vivo pueden ser utilizadas para realizar balanceo de carga
+
+
+## 2.2 Tipos de Hipervisor
+* Virtualización a nivel de sistema operativo.
+* Virtualización de escritorio
+* Virtualización de aplicaciones.
+* Virtualización de servicios.
 
 ## 1.2. Diagrama de capas
 ![Capas de virtualización de datos](img/data-virtualization.svg "Fuentes de datos heterogéneas")
@@ -103,31 +138,17 @@ Un [Contenedor][] es un espacio de usuario aislado
 es una virtualización a nivel de sistema operativo o a nivel de aplicación sobre múltiples recursos de red para q en espacios de contenedores en cualquier entorno de nube o no nube, independientemente del tipo o proveedor.
 
 
-# 3. Simulación
-Un [hipervisor][11_0] (en inglés hypervisor) o monitor de máquina virtual (virtual machine monitor)1​ es una capa de software para realizar una virtualización de hardware que permite utilizar, al mismo tiempo, diferentes sistemas operativos (sin modificar o modificados, en el caso de paravirtualización) en una misma computadora.
-
-* ><i>"Puedes tener la mejor tecnología, puedes tener el mejor modelo de negocio, pero si no sabes cómo contar tu historia; nada de eso importará. Nadie te verá."</i><br>
-<cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
-
-[11_0]:https://es.wikipedia.org/wiki/Hipervisor
 
 
-# 4. Emulación
-Un [hipervisor][11_0] (en inglés hypervisor) o monitor de máquina virtual (virtual machine monitor)1​ es una capa de software para realizar una virtualización de hardware que permite utilizar, al mismo tiempo, diferentes sistemas operativos (sin modificar o modificados, en el caso de paravirtualización) en una misma computadora.
-
-* ><i>"Puedes tener la mejor tecnología, puedes tener el mejor modelo de negocio, pero si no sabes cómo contar tu historia; nada de eso importará. Nadie te verá."</i><br>
-<cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
-
-[11_0]:https://es.wikipedia.org/wiki/Hipervisor
-
-## 1.1. Tipos de virtualización
-* Virtualización de datos.
-* Virtualización del hardware de una computadora.
-* Virtualización de sistema operativo.
-* Virtualización de la infraestructura de red.
 
 ---
 ## Mas Recursos
-- [Sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) (Wikipedia)
-1. [Simulación](#3-simulación).
-1. [Emulación](#4-emulación).
+- [Emulador](https://es.wikipedia.org/wiki/Emulador) (Wikipedia)
+- [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
+- [Computación en la nube](https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube) (Wikipedia)
+- [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
+- [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
+- [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
+- [Google Compute Engine](https://en.wikipedia.org/wiki/Google_Compute_Engine) (Wikipedia)
+- [IBM Cloud VS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
+- [Oracle Cloud VM](https://es.wikipedia.org/wiki/Oracle_Cloud) (Wikipedia)
