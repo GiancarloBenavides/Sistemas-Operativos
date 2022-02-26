@@ -38,20 +38,18 @@ lasquez, P. (2020). Virtualización de datos una alternativa moderna de integrac
 
 
 # 2. Virtualización de hardware
-Un [hipervisor][11_0] o monitor de máquina virtual, [(VM)][11_1]; es una capa de software que permite realizar virtualización a nivel de hardware y utilizar, al mismo tiempo, diferentes sistemas operativos compartiendo los mismos recursos de hardware de una computadora.
+Un [hipervisor][2_0] o monitor de máquina virtual, [(VM)][2_1]; es una capa de software que permite realizar virtualización a nivel de hardware y utilizar, al mismo tiempo, diferentes sistemas operativos compartiendo los mismos recursos de hardware de una computadora.
 
 * ><i>"Puedes tener la mejor tecnología, puedes tener el mejor modelo de negocio, pero si no sabes cómo contar tu historia; nada de eso importará. Nadie te verá."</i><br>
 <cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
 
-[11_0]:https://es.wikipedia.org/wiki/Hipervisor
-[11_1]:https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
+[2_0]:https://es.wikipedia.org/wiki/Hipervisor
+[2_1]:https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
 
 
 ## 2.1. Características
-* Es una tecnología de integración de datos.
-* Normaliza fuentes de datos heterogéneas.
-* Ofrece la capacidad de aprovechar grandes volúmenes de datos.
-* Permite al usuario manipular los datos en tiempo real.
+* El __HOST__ o anfitrión es la máquina utilizada por el hipervisor.
+* El __GUEST__ o máquina invitada es la máquina virtual.
 
 
 ## 2.2 Tipos de Hipervisor
@@ -63,31 +61,31 @@ Un [hipervisor][11_0] o monitor de máquina virtual, [(VM)][11_1]; es una capa d
 </small>
 
 
-## 1.4. Ejemplos de Hipervisor
+## 2.3. Ejemplos de Hipervisor
 | Tipo 1 | Tipo 2 |
 |:---:|:---:|
-| [Hyper-V][14_1] | [Qemu][14_2] |
-| [VMware ESXi][14_3] | [Vmware][14_4] |
-| [Proxmox VE][14_5] | [Parallels][14_6] |
-| [Xen][14_7] | [VirtualBox][14_8] |
+| [Hyper-V][23_1] | [Qemu][23_2] |
+| [VMware ESXi][23_3] | [Vmware][23_4] |
+| [Proxmox VE][23_5] | [Parallels][23_6] |
+| [Xen][23_7] | [VirtualBox][23_8] |
 
-[14_1]:https://es.wikipedia.org/wiki/Hyper-V
-[14_2]:https://en.wikipedia.org/wiki/QEMU
-[14_3]:https://en.wikipedia.org/wiki/VMware_ESXi
-[14_4]:https://en.wikipedia.org/wiki/VMware_Workstation
-[14_5]:https://es.wikipedia.org/wiki/Proxmox_Virtual_Environment
-[14_6]:https://en.wikipedia.org/wiki/Parallels_Server_for_Mac
-[14_7]:https://es.wikipedia.org/wiki/Xen
-[14_8]:https://en.wikipedia.org/wiki/VirtualBox
+[23_1]:https://es.wikipedia.org/wiki/Hyper-V
+[23_2]:https://en.wikipedia.org/wiki/QEMU
+[23_3]:https://en.wikipedia.org/wiki/VMware_ESXi
+[23_4]:https://en.wikipedia.org/wiki/VMware_Workstation
+[23_5]:https://es.wikipedia.org/wiki/Proxmox_Virtual_Environment
+[23_6]:https://en.wikipedia.org/wiki/Parallels_Server_for_Mac
+[23_7]:https://es.wikipedia.org/wiki/Xen
+[23_8]:https://en.wikipedia.org/wiki/VirtualBox
 
 
 # 3. Virtualización de software
-Un motor de contenedores o [CT][11_0] es una capa de software que permite realizar una virtualización a nivel de software y utilizar diferentes y aislados espacios de usuario compartiendo los mismos recursos de una aplicación o sistema operativo.
+Un motor de contenedores o [CT][3_0] es una capa de software que permite realizar una virtualización a nivel de software y utilizar diferentes y aislados espacios de usuario compartiendo los mismos recursos de una aplicación o sistema operativo.
 
 * ><i>"Puedes tener la mejor tecnología, puedes tener el mejor modelo de negocio, pero si no sabes cómo contar tu historia; nada de eso importará. Nadie te verá."</i><br>
 <cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
 
-[11_0]:https://es.wikipedia.org/wiki/Hipervisor
+[3_0]:https://es.wikipedia.org/wiki/Hipervisor
 
 
 ## 1.2. Diagrama de capas
