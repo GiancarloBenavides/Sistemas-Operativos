@@ -7,9 +7,9 @@ La virtualización utiliza software para imitar las características de un compo
 
 ## Agenda
 1. [Virtualización de datos](#1-virtualización-de-datos).
-1. [Virtualización de hardware](#1-virtualización-de-hardware).
-1. [virtualización de software](#2-contenerización).
-1. [virtualización de infraestructura](#2-contenerización).
+1. [Virtualización de hardware](#2-virtualización-de-hardware).
+1. [virtualización de software](#3-contenerización).
+1. [virtualización de infraestructura](#4-contenerización).
 
 <br>
 
@@ -69,14 +69,14 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 * Permite La migración de instantáneas mejora la fiabilidad. 
 
 
-## 2.2 Tipos de Hipervisor ✔
+## 2.3 Tipos de Hipervisor ✔
 * [__Virtualización nativa:__][22_1] mejor rendimiento porque el hipervisor se ejecuta directamente sobre el hardware físico.
 * [__Virtualización alojada:__][22_2] mejor compatibilidad porque el hipervisor se ejecuta sobre un sistema operativo anfitrión.
 
 [22_1]:https://es.wikipedia.org/wiki/Hipervisor#Hipervisor_tipo_1
 [22_2]:https://es.wikipedia.org/wiki/Hipervisor#Hipervisor_tipo_2
 
-## 2.3 Diagrama de capas ✔
+## 2.4 Diagrama de capas ✔
 ![Hipervisor](img/type-hypervisors.svg "Tipos de hipervisores")
 
 <small>Papers: 
@@ -85,7 +85,7 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 </small>
 
 
-## 2.3. Ejemplos de Hipervisor ✔
+## 2.5. Ejemplos de Hipervisor ✔
 | Tipo 1 | Tipo 2 |
 |:---:|:---:|
 | [Hyper-V][23_1] | [Qemu][23_2] |
@@ -111,21 +111,25 @@ Un motor de contenedores o [CT][3_0] es una capa de software que permite realiza
 
 [3_0]:https://es.wikipedia.org/wiki/Hipervisor
 
-## 3.1. Características ✔
+## 3.1. Arquitectura ✔
+*  Un [Contenedor][3_0] es un espacio de usuario aislado.
+
+
+## 3.2. Características ✔
 * Permite alojar distintos contenedores o [CT][3_0].
 * Los [CT][3_0] pueden parecer computadoras reales, pero es una capa mas ligera.
 * Aislá aplicaciones del SO subyacente y de aplicaciones.
 * Posibilita las migraciones en vivo pueden ser utilizadas para realizar balanceo de carga
 
 
-## 2.2 Tipos de Hipervisor ✔
+## 3.3 Tipos de Monitor ✔
 * Virtualización a nivel de sistema operativo.
-* Virtualización de escritorio
+* Virtualización de escritorio.
 * Virtualización de aplicaciones.
 * Virtualización de servicios.
 
 
-## 3.3. Diagrama de capas ✔
+## 3.4. Diagrama de capas ✔
 ![Capas de virtualización de datos](img/type-container-engine.svg  "Fuentes de datos heterogéneas")
 
 <small>Papers: 
@@ -133,7 +137,7 @@ Un motor de contenedores o [CT][3_0] es una capa de software que permite realiza
 </small>
 
 
-## 3.4. Ejemplos de Motores de contenedores ✔
+## 3.5. Ejemplos de motores de contenedores ✔
 * [Docker](https://es.wikipedia.org/wiki/Docker_(software))
 * [Kubernetes](https://es.wikipedia.org/wiki/Kubernetes)
 * [OpenShift](https://es.wikipedia.org/wiki/OpenShift)
@@ -142,7 +146,6 @@ Un motor de contenedores o [CT][3_0] es una capa de software que permite realiza
 ---
 aislados o [contenedores][11_1] donde las aplicaciones de software pueden ejecutarse con seguridad 
  sistemas operativos sin modificar en una misma computadora.
-Un [Contenedor][] es un espacio de usuario aislado 
 es una virtualización a nivel de sistema operativo o a nivel de aplicación sobre múltiples recursos de red para q en espacios de contenedores en cualquier entorno de nube o no nube, independientemente del tipo o proveedor.
 
 ---

@@ -15,7 +15,7 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
     1. [Evolución][13]
 1. [Estructura][21]
     1. [Multi-tarea][21]
-    1. [Sistema de archivos][22]
+    1. [Almacenamiento][22]
     1. [Virtualización][23]
 1. [Clasificación][30]
 1. [Gestión][41]
@@ -26,10 +26,10 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
 [11]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/11-Fundamentos
 [12]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/12-Antecedentes
 [13]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/13-Evolucion
-[21]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
-[22]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
-[23]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
-[30]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
-[41]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
-[42]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
-[43]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/
+[21]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/21-Multitarea
+[22]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/22-Almacenamiento
+[23]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/23-Virtualizacion
+[30]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/30-Clasificacion
+[41]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/41-Procesos
+[42]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/42-Memoria
+[43]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/43-Archivos
