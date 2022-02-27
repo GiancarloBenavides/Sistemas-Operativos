@@ -126,7 +126,7 @@ Un motor de contenedores o [CT][3_0] es una capa de software que permite realiza
 
 
 ## 3.3. Diagrama de capas ✔
-![Capas de virtualización de datos](img/  "Fuentes de datos heterogéneas")
+![Capas de virtualización de datos](img/type-container-engine.svg  "Fuentes de datos heterogéneas")
 
 <small>Papers: 
 1: [Espinosa Tigre, Rodolfo Moisés. (2019). Análisis comparativo de un hipervisor nativo propietario y libre como alternativa de solución para el proceso de almacenamiento de datos. Escuela Superior Politécnica de Chimborazo. Riobamba.](http://dspace.espoch.edu.ec/bitstream/123456789/10832/1/20T01201.pdf)
