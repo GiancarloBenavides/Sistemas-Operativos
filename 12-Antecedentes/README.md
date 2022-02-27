@@ -12,6 +12,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 
 <br>
 
+
 ---
 # 1. Arquitectura de computadores
 Es un conjunto de reglas, métodos y componentes conceptuales que describen la funcionalidad, la organización y la implementación de los sistema de procesamiento digital.
@@ -29,7 +30,8 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 * Programación en [lenguaje maquina][2_5].
 * Ejecución en [tiempo Real][2_6].
 
-# 2.1. Primer ordenador programable
+
+# 2.1. Primer ordenador programable ✔
 * [Z1][21_0] era un ordenador electromecánico.
 * Diseñado en 1937 por [Konrad Zuse][21_1].
 * Construido en 1938 por [Konrad Zuse][21_1].
@@ -37,7 +39,8 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 * Permitía números de [punto flotante][21_3] binarios.
 * 64 palabras de 22 bits como [memoria de programa][21_4].
 
-# 2.2 Arquitectura Harvard
+
+# 2.2 Arquitectura Harvard ✔
 ![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
 
 
@@ -92,16 +95,19 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 </table>
 
 
-## 3.1 Arquitectura Arduino
+## 3.1 Arquitectura Arduino ✔
 ![Arquitectura Arduino](img/arduino_architecture.svg "Arquitectura Arduino")
 
-## 3.2 Memoria
+
+## 3.2 Memoria ✔
 ![Arquitectura Arduino](img/arduino_memory.svg "Memory Arduino")
 
-## 3.3 Diafragma de Flujo de operación
+
+## 3.3 Diafragma de Flujo de operación ✔
 ![Ejecución de instrucciones](img/arduino_uno_flow.png "Ejecución de instrucciones")
 
-## 3.4 Ejecución de instrucciones
+
+## 3.4 Ejecución de instrucciones ✔
 ![Ejecución de instrucciones](img/fetch_execute.svg "Ejecución de instrucciones")
 
 

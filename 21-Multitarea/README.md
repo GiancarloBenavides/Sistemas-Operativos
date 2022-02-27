@@ -10,7 +10,6 @@ Un SO es complejo y solo puede entenderse dividiendo su operación en piezas fun
 1. [Jerarquía de Memoria](#2-jerarquía-de-memoria).
 1. [Protección de memoria](#3-protección-de-memoria).
 
-
 <br>
 
 
@@ -24,7 +23,7 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [1_0]:https://es.wikipedia.org/wiki/Multitarea
 
 
-# 1.1. Requisitos mínimos
+# 1.1. Requisitos mínimos ✔
 * Gestión del hardware.
 * Permitir seleccionar entre tareas listas para ejecutar.
 * Decidir que procesos pueden interrumpir la ejecución de tareas.
@@ -32,7 +31,7 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 * Permitir acceso a los dispositivos a aquellas tareas que lo requieren.
 
 
-## 1.2. Gestión del hardware
+## 1.2. Gestión del hardware ✔
 * [Gestor de dispositivos (entrada/salida)][12_1].
 * [Gestor de memoria][12_2].
 * [Gestor de procesamiento][12_3]. 
@@ -42,11 +41,11 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [12_3]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
 
 
-## 1.3. Diagrama de estados
+## 1.3. Diagrama de estados ✔
 ![diagrama de estado](img/process_state.svg "Estados de una tarea")
 
 
-## 1.4. Componentes relacionados
+## 1.4. Componentes relacionados ✔
 * [__Scheduler:__][14_1] Planificador de tareas.
 * [__Driver:__][14_2] Controladores de dispositivo.
 * [__MMU:__][14_3] Unidad de gestión de memoria.
@@ -60,7 +59,7 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [14_5]:https://es.wikipedia.org/wiki/Multiprocesamiento_sim%C3%A9trico
 
 
-## 1.5. Maquina Extendida
+## 1.5. Maquina Extendida ✔
 ![mapa de procesos so](img/extended_machine.svg "Procesos maquina extendida")
 
 
@@ -73,11 +72,11 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [2_0]:https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria
 
 
-## 2.1. Capacidad vs Costo
+## 2.1. Capacidad vs Costo ✔
 ![Jerarquía de almacenamiento](img/memory_hierarchy.svg "jerarquía de memoria")
 
 
-## 2.2. Componentes relacionados
+## 2.2. Componentes relacionados ✔
 * [__Coherence:__][22_1] Coherencia de la memoria.
 * [__Multi-channel:__][22_6] Arquitectura de memoria multi-canal.
 * [__Cluster:__][22_5] Clúster de computadoras.
@@ -120,7 +119,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 [3_0]:https://es.wikipedia.org/wiki/Protecci%C3%B3n_de_memoria
 
 
-## 3.1. Características
+## 3.1. Características ✔
 * Abreviado como P-Mode.
 * Es un modo operacional de las CPUs modernas.
 * Segmenta la memoria en paginas antes de asignarlas a un proceso.
@@ -129,7 +128,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 * Asigna un espacio de memoria a cada proceso.
 
 
-## 3.2. Componentes relacionados
+## 3.2. Componentes relacionados ✔
 * [__Microprocessor modes:__][32_1] Modos de funcionamiento del procesador.
 * [__Memory segmentation:__][32_2] Segmentación de memoria.
 * [__Memory paging:__][32_3] Paginación de memoria.
@@ -141,11 +140,11 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 [32_4]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
 
 
-## 3.3. Llamadas al sistema
+## 3.3. Llamadas al sistema ✔
 ![API](img/protected_mode.svg "Llamadas al sistema")
 
 
-## 3.4. Paginación de memoria
+## 3.4. Paginación de memoria ✔
 ![Cache](img/pagination.svg "jerarquía de cache")
 
 

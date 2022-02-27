@@ -3,15 +3,13 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ## Clasificación
-La virtualización utiliza software para imitar las características de un componente de un sistema informático y crear un entorno virtual que provea una solución similar al componente real.
+Existen diversas clasificaciones desde distintos puntos de vista para los sistemas operativos.
 
 ## Agenda
-1. [Virtualización de datos](#1-virtualización-de-datos).
-1. [Virtualización de hardware](#2-virtualización-de-hardware).
-1. [virtualización de software](#3-contenerización).
-1. [virtualización de infraestructura](#4-contenerización).
+1. [Por numero de usuarios](#1-virtualización-de-datos).
 
 <br>
+
 
 ---
 # 1. Virtualización de datos

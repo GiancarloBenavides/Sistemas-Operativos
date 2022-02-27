@@ -12,6 +12,7 @@ Un SO es complejo y solo puede entenderse dividiendo su operación en piezas fun
 
 <br>
 
+
 ---
 # 1. La persistencia de datos
 La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que los datos sobrevivan a la ejecución del programa que los ha creado. Sin esta capacidad, los datos solo existen en memoria RAM, y se pierden cuando la memoria pierde energía, como cuando se apaga el computador.
@@ -22,7 +23,7 @@ La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que 
 [1_0]:https://es.wikipedia.org/wiki/Persistencia_(inform%C3%A1tica)#
 
 
-## 1.1. Características
+## 1.1. Características ✔
 * Almacenamiento secundario no volátil.
 * Alta capacidad comparado con memoria principal.
 * Baja velocidad comparado con memoria principal.
@@ -41,17 +42,17 @@ La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que 
 [11_3]:https://en.wikipedia.org/wiki/Random-access_memory
 
 
-## 1.2. Gestión del software
+## 1.2. Gestión del software ✔
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
 
 
-## 1.3. Diagrama de estados
+## 1.3. Diagrama de estados ✔
 ![diagrama de estado](img/process_state_secondary.svg "Estados de una tarea")
 
 
-## 1.4. Componentes relacionados
+## 1.4. Componentes relacionados ✔
 * [__File system:__][14_1] Sistema de archivos.
 * [__Access control:__][14_2] Lista de control de acceso.
 * [__journaling file system:__][14_3] Sistema de seguimiento de archivos.
@@ -63,7 +64,7 @@ La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que 
 [14_4]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
 
 
-## 1.5. Maquina Extendida
+## 1.5. Maquina Extendida ✔
 ![mapa de procesos so](img/extended_machine_secondary.svg "Procesos maquina extendida")
 
 
@@ -153,7 +154,6 @@ mount --bind {{path/to/old_dir}} {{path/to/new_dir}}
 
 
 ### 3.2. Caso de uso <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
-
 
 ```ps
 # Cree un nuevo usuario con un directorio de inicio predeterminado y solicite al usuario que establezca una contraseña:

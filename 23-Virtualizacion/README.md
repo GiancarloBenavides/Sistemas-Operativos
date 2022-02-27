@@ -2,20 +2,21 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
-## Virtualización
-La virtualización utiliza software para imitar las características de un componente de un sistema informático y crear un entorno virtual que provea una solución similar al componente real.
+## Estructura
+Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas, definiendo cuidadosamente entradas, salidas de cada proceso.
 
 ## Agenda
 1. [Virtualización de datos](#1-virtualización-de-datos).
 1. [Virtualización de hardware](#2-virtualización-de-hardware).
-1. [virtualización de software](#3-contenerización).
-1. [virtualización de infraestructura](#4-contenerización).
+1. [Virtualización de software](#3-virtualización-de-software).
+1. [Virtualización de infraestructura](#4-virtualización-de-infraestructura).
 
 <br>
 
+
 ---
 # 1. Virtualización de datos
-La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispersas, en distintas localizaciones y formatos, sin replicar los datos, para construir una capa de datos virtual que facilita la provisión de servicios de datos unificados para dar soporte a múltiples aplicaciones y usuarios.
+La [virtualización de datos][1_0] consiste en integrar datos de fuentes dispersas, en distintas localizaciones y formatos, sin replicar los datos, para construir una capa de datos virtual que facilita la provisión de servicios de datos unificados para dar soporte a múltiples aplicaciones y usuarios.
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
@@ -49,7 +50,8 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 [2_1]:https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
 
 
-## 2.1. Arquitectura ✔
+## 2.1. Componentes de la arquitectura ✔
+* Un [hipervisor][2_0] permite alojar distintas maquinas virtuales.
 * El [__Host__][21_1] o anfitrión es la máquina utilizada por el hipervisor.
 * El [__Guest__][21_1] o máquina invitada es la máquina virtual.
 * La [__Asistencia por hardware__][21_3] mejora la eficiencia.
@@ -62,7 +64,6 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 
 
 ## 2.2. Características ✔
-* Permite alojar distintas maquinas virtuales o [VM][2_1].
 * Permite el despliegue de entornos seguros de ejecución.
 * Permite reducir costos y simplificar la gestión.
 * Permite la ampliación dinámica de las capacidades del hardware.
@@ -75,6 +76,7 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 
 [22_1]:https://es.wikipedia.org/wiki/Hipervisor#Hipervisor_tipo_1
 [22_2]:https://es.wikipedia.org/wiki/Hipervisor#Hipervisor_tipo_2
+
 
 ## 2.4 Diagrama de capas ✔
 ![Hipervisor](img/type-hypervisors.svg "Tipos de hipervisores")
@@ -106,17 +108,21 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 # 3. Virtualización de software
 Un motor de contenedores o [CT][3_0] es una capa de software que permite realizar una virtualización a nivel de software y utilizar diferentes y aislados espacios de usuario compartiendo los mismos recursos de una aplicación o sistema operativo.
 
-* ><i>"Los servidores físicos, privados o públicos son irrelevantes para el usuario final, Las nubes hin¡bridas se están convirtiendo en la solución predeterminada."</i><br>
-<cite style="display:block; text-align: right">[Paul Cormier](https://en.wikipedia.org/wiki/Paul_Cormier_(engineer))</cite>
+* ><i>"Si no te saltas sobre lo nuevo, no sobrevivirás."</i><br>
+<cite style="display:block; text-align: right">[Satya Nadella](https://es.wikipedia.org/wiki/Satya_Nadella)</cite>
 
 [3_0]:https://es.wikipedia.org/wiki/Hipervisor
 
-## 3.1. Arquitectura ✔
-*  Un [Contenedor][3_0] es un espacio de usuario aislado.
+
+## 3.1. Componentes de la arquitectura ✔
+* El [Monitor][] permite crear y administrar distintos contenedores.
+* Un [Contenedor][3_0] es un espacio de usuario aislado.
+* Una [Imagen][] es una plantilla de solo lectura usada para crear contenedores.
+* es un archivo que se utiliza para ejecutar código en un contenedor de Docker.
 
 
 ## 3.2. Características ✔
-* Permite alojar distintos contenedores o [CT][3_0].
+
 * Los [CT][3_0] pueden parecer computadoras reales, pero es una capa mas ligera.
 * Aislá aplicaciones del SO subyacente y de aplicaciones.
 * Posibilita las migraciones en vivo pueden ser utilizadas para realizar balanceo de carga
@@ -143,19 +149,36 @@ Un motor de contenedores o [CT][3_0] es una capa de software que permite realiza
 * [OpenShift](https://es.wikipedia.org/wiki/OpenShift)
 
 
----
+## 4. Virtualización de infraestructura
+La virtualización utiliza software para imitar las características de un componente de un sistema informático y crear un entorno virtual que provea una solución similar al componente real, a partir de la fragmentación de componentes de un sistema informático es posible plantear multiples métodos de virtualización pero en la mayoría de ellos es necesario construir diferentes [servicios de red virtualizados][4_0] que se comuniquen con otros componentes virtuales.
+
+* ><i>"Los servidores físicos, privados o públicos son irrelevantes para el usuario final, Las nubes híbridas se están convirtiendo en la solución predeterminada."</i><br>
+<cite style="display:block; text-align: right">[Paul Cormier](https://en.wikipedia.org/wiki/Paul_Cormier_(engineer))</cite>
+
+[4_0]:https://en.wikipedia.org/wiki/Network_as_a_service
+
+
+## 4.1. Arquitectura ✔
+
+
 aislados o [contenedores][11_1] donde las aplicaciones de software pueden ejecutarse con seguridad 
  sistemas operativos sin modificar en una misma computadora.
 es una virtualización a nivel de sistema operativo o a nivel de aplicación sobre múltiples recursos de red para q en espacios de contenedores en cualquier entorno de nube o no nube, independientemente del tipo o proveedor.
+
+
+
+
+## 4.2. Ejemplos de servicios en nube  ✔
+* [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
+* [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
+* [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
+* [Google Compute Engine](https://en.wikipedia.org/wiki/Google_Compute_Engine) (Wikipedia)
+* [IBM Cloud VS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
+* [Oracle Cloud VM](https://es.wikipedia.org/wiki/Oracle_Cloud) (Wikipedia)
+
 
 ---
 ## Mas Recursos
 - [Emulador](https://es.wikipedia.org/wiki/Emulador) (Wikipedia)
 - [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
 - [Computación en la nube](https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube) (Wikipedia)
-- [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
-- [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
-- [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Google Compute Engine](https://en.wikipedia.org/wiki/Google_Compute_Engine) (Wikipedia)
-- [IBM Cloud VS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Oracle Cloud VM](https://es.wikipedia.org/wiki/Oracle_Cloud) (Wikipedia)

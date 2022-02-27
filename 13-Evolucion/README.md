@@ -13,6 +13,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 
 <br>
 
+
 ---
 # 1. Primera generación
 * Después de [1950][1_0].
@@ -26,7 +27,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * Ejecución en [tiempo real][1_9].
 
 
-# 1.1. Ejemplos de primera generación
+# 1.1. Ejemplos de primera generación ✔
 * __1951:__ [EDSAC][11_1] - construido en [Cambridge][11_2].    
 * __1955:__ [UNIVAC][11_3] - construido por [Remington][11_4].
 * __1955:__ [IBM-701][11_5] - construido por [GM][11_6].
@@ -35,7 +36,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * __1959:__ [SOS][11_11] - por [Share User Group][11_12] para [IBM-704][11_8].
 
 
-# 1.2. Caso de estudio - GM-NAA I/O
+# 1.2. Caso de estudio - GM-NAA I/O ✔
 * Desarrollado en 1956.
 * Financiado por _General Motors Research Laboratories_.
 * Desarrollado para [__IBM-704__][11_8] de 36 Bit.
@@ -58,7 +59,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * Ejecución en [tiempo compartido][2_9].
 
 
-# 2.1. Ejemplos de segunda generación
+# 2.1. Ejemplos de segunda generación ✔
 * __1962:__ [GECOS][21_1] - construido por [GE][21_2].
 * __1963:__ [CTSS][21_3] - construido en [MIT][21_4].  
 * __1965:__ [__Multics__][21_5] - en el [MIT][21_4] por [GE][21_2] y [Bell Labs][11_10].
@@ -67,7 +68,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * __1966:__ [DOS/360][21_10] - construido por [IBM][21_11] para [S/360][21_12].
 
 
-# 2.2. Dominio de IBM en los Mainframes
+# 2.2. Dominio de IBM en los Mainframes ✔
 * [IBM suministró mainframes][22_0] desde 1952.
 * Domino el mercado con su plataforma [S/360][21_12].
 * Eventualmente [suministró a sus clientes SO][22_1] según características.
@@ -75,7 +76,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * Suministró [DOS/360 y sucesores][22_3] para los [S/360][21_12] mas pequeños.
 
 
-# 2.3. Caso de estudio - Multics
+# 2.3. Caso de estudio - Multics ✔
 * Desarrollado en el [MIT][21_4] desde 1965.
 * Financiado por _GM_ y _Bell Labs_.
 * Desarrollado para la [__GE-645__][23_0] de 36 Bit.
@@ -98,7 +99,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * Programación [lenguajes de medio nivel][2_7] compilados.
 
 
-# 3.1. Ejemplos de tercera generación
+# 3.1. Ejemplos de tercera generación ✔
 * __1970:__ [Unics][31_1] - por [Thompson][31_2] y [__Ritchie__][31_3] para [PDP-7][21_8].
 * __1971:__ [OS/8][31_4] - construido por [DEC][21_7] para [PDP-8][31_5].
 * __1973:__ [RT-11][31_6] - construido por [DEC][21_7] para [PDP-11][31_7].
@@ -109,7 +110,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * __1977:__ [BSD][31_16] - diseñado por [UC Berkeley][31_17]. 
 
 
-# 3.2. Dominio de DEC en los mini-ordenadores
+# 3.2. Dominio de DEC en los mini-ordenadores ✔
 * DEC suministró [mini-ordenadores][32_0] desde 1957.
 * Domino el mercado con su plataforma [PDP][32_1].
 * Eventualmente [suministró a sus clientes SO][32_2] según características.
@@ -121,7 +122,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 ![Plataforma DEC-PDP](img/dec_pdp.png "DEC-PDP")
 
 
-# 3.3. Caso de estudio - CP/M
+# 3.3. Caso de estudio - CP/M ✔
 * Desarrollado en 1974 por _Gary Kildall_.
 * Desarrollado para [__Intel 8080__][33_1] de 8 Bit.
 * Basado en el sistemas _OS/8_ y _RT-11_ de _DEC_.
@@ -133,7 +134,8 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 
 ![DEC PDP-8/E minicomputer](img/altair_microcomputer.png "DEC PDP-8/E")
 
-# 3.4. Caso de estudio - Unix
+
+# 3.4. Caso de estudio - Unix ✔
 * Inicio su desarrollo 1969.
 * Inicio como __Unics__ un proyecto personal.
 * Impulsado por ex-programadores de [Multics][21_5].
@@ -154,7 +156,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * Programación en [C][31_12] y otros [lenguajes de medio nivel][2_7].
 
 
-# 4.1. Ejemplos 4 generación - x86
+# 4.1. Ejemplos 4 generación - x86 ✔
 * __1981:__ [MS-DOS][41_1] - diseñado por [Microsoft][41_2]. 
 * __1982:__ [QNX][41_3] - diseñado por [BlackBerry][41_4].
 * __1984:__ [Mac OS][41_5] - diseñado por [Apple][41_6].
@@ -166,12 +168,12 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 ![Unix](img/multics_influence.svg "Unix")
 
 
-# 4.2. Generación - ARM
+# 4.2. Generación - ARM ✔
 * __2007:__ [iOS][41_9] - diseñado por [Apple][41_6].
 * __2008:__ [__Android__][41_10] - diseñado por [Google][41_11].
 
 
-# 4.3. Mención especial
+# 4.3. Mención especial ✔
 * __1982:__ [SunOS][43_1] - diseñado por [Oracle][43_2].
 * __1983:__ [__GNU__][43_3] - diseñado por [Free Software Foundation][43_4].
 * __1989:__ [NeXTSTEP][43_5] - diseñado por [Apple][41_6].

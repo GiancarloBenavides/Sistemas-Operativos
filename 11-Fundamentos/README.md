@@ -12,6 +12,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 
 <br>
 
+
 ---
 # 1. Sistemas de Información
 Un SI es una entidad cuyos múltiples y diversos componentes materiales o conceptuales permiten el procesamiento de información y así cubrir una necesidad o un objetivo especifico.
@@ -20,11 +21,11 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 <cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
 
-## 1.1. Procesos en un SI
+## 1.1. Procesos en un SI ✔
 ![mapa de procesos](img/is_process_map.png)
 
 
-## 1.2. Componentes en un SI
+## 1.2. Componentes en un SI ✔
 * __Usuarios:__ personas que desarrollan, mantienen y utilizan el sistema.
 * __Infraestructura:__ la red que permite compartir la información y los recursos entre dispositivos.
 * [__Software:__][11] procedimientos lógicos utilizados para transformar y extraer información.
@@ -35,7 +36,7 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 [12]:https://es.wikipedia.org/wiki/Hardware
 
 
-## 1.3. Capas en un SI
+## 1.3. Capas en un SI ✔
 ![mapa de procesos](img/is_layers.png)
 
 
@@ -53,7 +54,7 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 * Aplicaciones.
 
 
-## 2.1. Estructura del hardware - Teoría de autómatas
+## 2.1. Estructura del hardware - Teoría de autómatas ✔
 ![mapa de procesos](img/automata_theory.png)
 
 
@@ -87,14 +88,14 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 * [__Firmware:__][20]
 
 
-## 2.2. Periféricos
+## 2.2. Periféricos ✔
 Dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno de un sistema de procesamiento digital.
 
 * ><i>"La única forma de aprender un nuevo lenguaje de programación es escribir programas en él."</i><br>
 <cite style="display:block; text-align: right">[Dennis Ritchie](https://es.wikipedia.org/wiki/Dennis_Ritchie)</cite>
 
 
-## 2.3. Estructura del software - Teoría del núcleo
+## 2.3. Estructura del software - Teoría del núcleo ✔
 ![mapa de procesos](img/kernel_theory.png "Teoría del núcleo")
 
 
@@ -149,8 +150,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 <cite style="display:block; text-align: right">[Andrew Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 
-
-## 3.1 Otras definiciones para SO
+## 3.1 Otras definiciones para SO ✔
 * El software y/o firmware que hace utilizable al hardware __(Deitel, 2004)__. [<sup>[1]</sup>][311]
 * Es un programa que controla la ejecución de los programas de aplicación y que actúa como interfaz entre las aplicaciones de usuarios y el hardware __(Satllings, 2017)__. [<sup>[2]</sup>][312]
 * Es un programa que actúa como intermediario entre el usuario y el hardware. El primer objetivo es la comodidad, el segundo la eficiencia __(Silberschatz, 2021)__. [<sup>[3]</sup>][313]
@@ -169,7 +169,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [314]:https://www.amazon.com/-/es/Abraham-Silberschatz/dp/1119800366
 
 
-## 3.2 Objetivos SO
+## 3.2 Objetivos SO ✔
 * [__Comodidad:__][321] Funcionar como una interfaz entre el usuario y el hardware facilitando su aprovechamiento.
 * [__Eficiencia:__][322] Administrar los recursos físicos y lógicos del sistema informático de forma eficiente.
 * [__Capacidad de evolución:__][323] Permitir la introducción de nuevas características al sistema sin afectar la experiencia.
@@ -179,7 +179,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [323]:https://es.wikipedia.org/wiki/Escalabilidad
 
 
-## 3.3 Funciones SO
+## 3.3 Funciones SO ✔
 * Asignar recursos a los usuarios y programas.
 * Recuperar los recursos asignados y desocupados.
 * Permitir el dialogo interactivo de los usuarios con el sistema.
@@ -189,7 +189,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 * Llevar historial de uso.
 
 
-## 3.4 Calidad SO
+## 3.4 Calidad SO ✔
 * Son aplicables los principios de la [calidad del software][341] 
 * Modelo [ISO/IEC 25000][342]
 
@@ -199,7 +199,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [342]:https://es.wikipedia.org/wiki/ISO/IEC_25000
 
 
-# 3.5. Ejemplos
+# 3.5. Ejemplos ✔
 * [__Unix:__][351] programado en C de los [laboratorios Bell][351_1].
 * [__Windows:__][352] programado en C, C++ de [Microsoft][352_1].
 * [__macOS:__][353] programado en C, Objetive-C de [Apple][353_1].
