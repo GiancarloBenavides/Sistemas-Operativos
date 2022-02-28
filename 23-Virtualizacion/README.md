@@ -9,7 +9,7 @@ Un SO es complejo y solo puede entenderse dividiendo su operación en piezas fun
 1. [Virtualización de datos](#1-virtualización-de-datos).
 1. [Virtualización de hardware](#2-virtualización-de-hardware).
 1. [Virtualización de software](#3-virtualización-de-software).
-1. [Virtualización de infraestructura](#4-virtualización-de-infraestructura).
+1. [Virtualización de infraestructura de red](#4-virtualización-de-infraestructura-de-red).
 
 <br>
 
@@ -51,16 +51,15 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 
 
 ## 2.1. Componentes de la arquitectura ✔
-* Un [hipervisor][2_0] permite alojar distintas maquinas virtuales.
+* Un [__hipervisor__][2_0] permite alojar distintas maquinas virtuales.
+* El [__Guest__][2_1] o máquina invitada es la máquina virtual.
 * El [__Host__][21_1] o anfitrión es la máquina utilizada por el hipervisor.
-* El [__Guest__][21_1] o máquina invitada es la máquina virtual.
-* La [__Asistencia por hardware__][21_3] mejora la eficiencia.
-* Las [__Instantáneas__][21_4] o copias temporal del estado del sistema.
+* La [__Asistencia por hardware__][21_2] mejora la eficiencia.
+* Las [__Instantáneas__][21_3] o copias temporal del estado del sistema.
 
 [21_1]:https://es.wikipedia.org/wiki/Host
-[21_2]:https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
-[21_3]:https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_x86#Soporte_hardware
-[21_4]:https://es.wikipedia.org/wiki/Copia_instant%C3%A1nea_de_volumen
+[21_2]:https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_x86#Soporte_hardware
+[21_3]:https://es.wikipedia.org/wiki/Copia_instant%C3%A1nea_de_volumen
 
 
 ## 2.2. Características ✔
@@ -79,7 +78,7 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 
 
 ## 2.4 Diagrama de capas ✔
-![Hipervisor](img/type-hypervisors.svg "Tipos de hipervisores")
+![Capas de virtualización con hipervisor](img/type-hypervisors.svg "Tipos de hipervisor")
 
 <small>Papers: 
 1: [Fernandez, R. J. (2015). Comparación de performance de Hipervisores.](https://rdu.iua.edu.ar/bitstream/123456789/629/1/TF_Rodrigo%20Fernandez.pdf)
@@ -106,29 +105,38 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 
 
 # 3. Virtualización de software
-Un motor de contenedores o [CT][3_0] es una capa de software que permite realizar una virtualización a nivel de software y utilizar diferentes y aislados espacios de usuario compartiendo los mismos recursos de una aplicación o sistema operativo.
+Un [ejecutor][3_0] de contenedores o [CT][3_1] es una capa de software que permite realizar una virtualización a nivel de software y utilizar diferentes y aislados espacios de usuario compartiendo los mismos recursos de una aplicación o sistema operativo.
 
 * ><i>"Si no te saltas sobre lo nuevo, no sobrevivirás."</i><br>
 <cite style="display:block; text-align: right">[Satya Nadella](https://es.wikipedia.org/wiki/Satya_Nadella)</cite>
 
-[3_0]:https://es.wikipedia.org/wiki/Hipervisor
+[3_0]:https://es.wikipedia.org/wiki/Sistema_en_tiempo_de_ejecuci%C3%B3n
+[3_1]:https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_a_nivel_de_sistema_operativo#Tipos
 
 
 ## 3.1. Componentes de la arquitectura ✔
-* El [Monitor][] permite crear y administrar distintos contenedores.
-* Un [Contenedor][3_0] es un espacio de usuario aislado.
-* Una [Imagen][] es una plantilla de solo lectura usada para crear contenedores.
+* Un [__Ejecutor__][3_0] permite ejecutar distintos contenedores.
+* Un [__Contenedor__][3_1] o CT es un espacio de usuario aislado.
+* Una [__Imagen__][31_1] es una plantilla de solo lectura usada para crear CT.
+* Un [__Orquestador__][31_2] permite automatizar el despliegue y escalado de CT.
+* Una [__Capsula__][31_3] es un conjunto de CT que comparten recursos en un anfitrión.
 * es un archivo que se utiliza para ejecutar código en un contenedor de Docker.
+
+[31_1]:https://hub.docker.com/
+[31_2]:https://en.wikipedia.org/wiki/Orchestration_(computing)#
+[31_3]:https://es.wikipedia.org/wiki/Kubernetes#Cápsulas_(Pods)
 
 
 ## 3.2. Características ✔
-
-* Los [CT][3_0] pueden parecer computadoras reales, pero es una capa mas ligera.
+* La virtualización a nivel de software impone poca o ninguna sobrecarga.
+* Los CT pueden parecer computadoras reales, pero es una capa mas ligera.
 * Aislá aplicaciones del SO subyacente y de aplicaciones.
-* Posibilita las migraciones en vivo pueden ser utilizadas para realizar balanceo de carga
+* los programas dentro de un CT solo pueden ver los dispositivos asignados.
+* Pueden ser utilizadas para realizar balanceo de carga.
+* Posibilita las migraciones en vivo.
 
 
-## 3.3 Tipos de Monitor ✔
+## 3.3 Tipos de Ejecutor ✔
 * Virtualización a nivel de sistema operativo.
 * Virtualización de escritorio.
 * Virtualización de aplicaciones.
@@ -136,39 +144,63 @@ Un motor de contenedores o [CT][3_0] es una capa de software que permite realiza
 
 
 ## 3.4. Diagrama de capas ✔
-![Capas de virtualización de datos](img/type-container-engine.svg  "Fuentes de datos heterogéneas")
+![Capas de virtualización con contenedores](img/type-container-engine.svg  "Container-runtime")
 
 <small>Papers: 
 1: [Espinosa Tigre, Rodolfo Moisés. (2019). Análisis comparativo de un hipervisor nativo propietario y libre como alternativa de solución para el proceso de almacenamiento de datos. Escuela Superior Politécnica de Chimborazo. Riobamba.](http://dspace.espoch.edu.ec/bitstream/123456789/10832/1/20T01201.pdf)
 </small>
 
 
-## 3.5. Ejemplos de motores de contenedores ✔
+## 3.5. Ejemplos de [Container-Runtimes][35_0] ✔
 * [Docker](https://es.wikipedia.org/wiki/Docker_(software))
 * [Kubernetes](https://es.wikipedia.org/wiki/Kubernetes)
 * [OpenShift](https://es.wikipedia.org/wiki/OpenShift)
 
+[35_0]:https://kubernetes.io/docs/setup/production-environment/container-runtimes/
 
-## 4. Virtualización de infraestructura
-La virtualización utiliza software para imitar las características de un componente de un sistema informático y crear un entorno virtual que provea una solución similar al componente real, a partir de la fragmentación de componentes de un sistema informático es posible plantear multiples métodos de virtualización pero en la mayoría de ellos es necesario construir diferentes [servicios de red virtualizados][4_0] que se comuniquen con otros componentes virtuales.
 
+## 4. Virtualización de infraestructura de red
+los servicios de [red virtualizados][4_0] son una capa de software que provee una solución similar al componente físico real y son necesarios para comunicar los diferentes componentes virtuales de un sistema informático.  
+ 
 * ><i>"Los servidores físicos, privados o públicos son irrelevantes para el usuario final, Las nubes híbridas se están convirtiendo en la solución predeterminada."</i><br>
 <cite style="display:block; text-align: right">[Paul Cormier](https://en.wikipedia.org/wiki/Paul_Cormier_(engineer))</cite>
 
 [4_0]:https://en.wikipedia.org/wiki/Network_as_a_service
 
 
-## 4.1. Arquitectura ✔
+## 4.1. Componentes de la arquitectura ✔
+* Un [SDN][41_1] es una red definida por software.
+* Una [VPC][41_2] es una red de recursos de procesamiento configurable por demanda.
+* La [computación en la nube][41_3] es el uso servidores remotos virtualmente integrados.
+* la [IaC][41_4] es el aprovisionamiento de centros de datos a través de archivos de definición.
+
+[41_1]:https://es.wikipedia.org/wiki/Redes_definidas_por_software
+[41_2]:https://es.wikipedia.org/wiki/Nube_privada_virtual
+[41_3]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube
+[41_4]:https://es.wikipedia.org/wiki/Infraestructura_como_c%C3%B3digo
 
 
-aislados o [contenedores][11_1] donde las aplicaciones de software pueden ejecutarse con seguridad 
- sistemas operativos sin modificar en una misma computadora.
-es una virtualización a nivel de sistema operativo o a nivel de aplicación sobre múltiples recursos de red para q en espacios de contenedores en cualquier entorno de nube o no nube, independientemente del tipo o proveedor.
+## 4.2. Características ✔
+* La virtualización utiliza software para imitar las características de un componente del SI y crear un entorno virtual que provea una solución similar al componente real.
+* A partir de la fragmentación de componentes de un SI es posible plantear multiples métodos de virtualización, pero en la mayoría de los escenarios necesita construir servicios de red virtualizados.
+* En una virtualización de plataforma a nivel de SO o a nivel de aplicación sobre múltiples recursos de red se desea comunicación entre entre espacios de CTs y VMs.
 
 
+## 4.3. Servicios nube ✔
+* [__NaaS:__][42_1] Infraestructura de red.
+* [__IaaS__][42_2] Maquinas virtuales para procesamiento.
+* [__PaaS:__][42_3] Contenedores de software.
+
+[42_1]:https://en.wikipedia.org/wiki/Network_as_a_service
+[42_2]:https://es.wikipedia.org/wiki/Infraestructura_como_servicio_(IaaS)#
+[42_3]:https://en.wikipedia.org/wiki/Platform_as_a_service
 
 
-## 4.2. Ejemplos de servicios en nube  ✔
+## 4.3. Diagrama de servicios nube ✔
+![Capas de virtualización](img/type-cloud-services.svg  "Servicios")
+
+
+## 4.5. Ejemplos de servicios en nube  ✔
 * [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
 * [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
 * [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
