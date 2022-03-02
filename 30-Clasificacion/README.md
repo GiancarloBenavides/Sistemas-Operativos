@@ -6,13 +6,16 @@
 Existen diversas clasificaciones desde distintos puntos de vista para los sistemas operativos.
 
 ## Agenda
-1. [Por numero de usuarios](#1-virtualización-de-datos).
+1. [Clasificación de Sistemas operativos](#1-clasificación-so).
+1. [Windows 10 - caso de estudio](#2-windows-10).
+1. [GNU/Linux - Caso de estudio](#3-kde-neon).
+1. [macOS - Caso de estudio](#4-macos).
 
 <br>
 
 
 ---
-# 1. Virtualización de datos
+# 1. Clasificación SO
 La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispersas, en distintas localizaciones y formatos, sin replicar los datos, para construir una capa de datos virtual que facilita la provisión de servicios de datos unificados para dar soporte a múltiples aplicaciones y usuarios.
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
@@ -37,12 +40,16 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * [Mono-tarea][12_1]
 * [Multi-tarea cooperativa][12_2]
 * [Multi-tarea apropiativa][12_3]
-* [Multi-tarea real][12_4]
+* [Multi-hilo][12_4]
+* [Multi-tarea real][12_5]
+
+![HPE Server](img/Multithreading.png "ProLiant-DL385")
 
 [12_1]:https://es.wikipedia.org/wiki/Monotarea
 [12_2]:https://es.wikipedia.org/wiki/Multitarea_cooperativa
 [12_3]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
-[12_4]:https://es.wikipedia.org/wiki/Multitarea#Real
+[12_4]:https://es.wikipedia.org/wiki/Multihilo
+[12_5]:https://es.wikipedia.org/wiki/Multitarea#Real
 
 
 ## 1.3. Por el número de procesadores ✔
@@ -50,6 +57,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * [Multi-procesamiento simétrico][13_2]
 * [Multi-procesamiento asimétrico][13_3]
 * [NUMA][13_4]
+
+[![HPE Server](img/HPE-ProLiant-DL385-Gen10.png "ProLiant-DL385")](https://buy.hpe.com/es/es/servers/proliant-dl-servers/proliant-dl300-servers/proliant-dl385-server/hpe-proliant-dl385-gen10-plus-v2-server/p/1013291283)
 
 [13_1]:https://es.wikipedia.org/wiki/Monoprocesador
 [13_2]:https://es.wikipedia.org/wiki/Multiprocesamiento_sim%C3%A9trico
@@ -77,6 +86,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * [De cliente liviano][15_1]
 * [De cliente pesado][15_2]
 * [De cliente híbrido][15_3]
+
+![Tipos de Kernel](img/HP-thin-client.png "Kernel")
 
 [15_1]:https://es.wikipedia.org/wiki/Cliente_liviano
 [15_2]:https://es.wikipedia.org/wiki/Cliente_pesado
@@ -107,7 +118,71 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 [13_7]:https://es.wikipedia.org/wiki/Sistema_operativo_de_tiempo_real
 
 
+# 2. Windows 11
+* Versión: [Windows 11 21H2][2_0]
+* Núcleo: híbrido ([NT kernel][2_1])
+* API: [WinAPI][2_2]
+* GUI: [Windows shell][2_3]
+* Framework: [.NET][2_4]
+
+![Arquitectura Windows 11](img/type-kernel.svg "Arquitectura Windows 11")
+
+[2_0]:https://en.wikipedia.org/wiki/Windows_11
+[2_1]:https://en.wikipedia.org/wiki/Architecture_of_Windows_NT
+[2_2]:https://en.wikipedia.org/wiki/Windows_API
+[2_3]:https://en.wikipedia.org/wiki/Windows_shell
+[2_4]:https://en.wikipedia.org/wiki/.NET_Framework
+
+
+# 3. KDE neon
+* Versión: [KDE neon 5.24][3_0]
+* Núcleo: monolítico ([Linux][3_1])
+* API: [Linux API][3_2]
+* GUI: [Plasma 5][3_3]
+* Framework: [Qt][3_4]
+
+![Arquitectura Linux](img/type-kernel.svg "Arquitectura Linux")
+
+[3_0]:https://en.wikipedia.org/wiki/KDE_neon
+[3_1]:https://en.wikipedia.org/wiki/Linux_kernel
+[3_2]:https://en.wikipedia.org/wiki/Linux_kernel_interfaces
+[3_3]:https://es.wikipedia.org/wiki/KDE_Plasma_5
+[3_4]:https://en.wikipedia.org/wiki/Qt_(software)#
+
+
+# 4. Ubuntu
+* Versión: [Jammy Jellyfish][4_0]
+* Núcleo: monolítico ([Linux][4_1])
+* API: [Linux API][4_2]
+* GUI: [Gnome][4_3]
+* Framework: [GTK][4_4]
+
+![Arquitectura Linux](img/type-kernel.svg "Arquitectura Linux")
+
+[4_0]:https://en.wikipedia.org/wiki/Ubuntu
+[4_1]:https://en.wikipedia.org/wiki/Linux_kernel
+[4_2]:https://en.wikipedia.org/wiki/Linux_kernel_interfaces
+[4_3]:https://en.wikipedia.org/wiki/GNOME
+[4_4]:https://en.wikipedia.org/wiki/GTK
+
+# 5. macOS
+* Versión: [Monterey 12.2][5_0]
+* Núcleo: híbrido ([XNU][5_1])
+* API: [SUS][5_2]
+* GUI: [Aqua][5_3]
+* Framework: [Cocoa][5_4]
+
+![Arquitectura macOS](img/type-kernel.svg "Arquitectura macOS")
+
+[5_0]:https://en.wikipedia.org/wiki/MacOS_Monterey
+[5_1]:https://en.wikipedia.org/wiki/XNU
+[5_2]:https://en.wikipedia.org/wiki/Single_UNIX_Specification
+[5_3]:https://en.wikipedia.org/wiki/Aqua_(user_interface)#
+[5_4]:https://en.wikipedia.org/wiki/Cocoa_(API)#
+
+
 ---
 ## Mas Recursos
 - [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
-- [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
+- [Computadoras paralelas](https://es.wikipedia.org/wiki/Computaci%C3%B3n_paralela#Clases_de_computadoras_paralelas) (Wikipedia)
+- [Concurrencia](https://es.wikipedia.org/wiki/Concurrencia_(inform%C3%A1tica)) (Wikipedia)
