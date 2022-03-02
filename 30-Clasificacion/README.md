@@ -64,6 +64,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * [De Núcleo Monolítico][14_4]
 * [De Núcleo híbrido][14_5]
 
+![Tipos de Kernel](img/type-kernel.svg "Kernel")
+
 [14_1]:https://en.wikipedia.org/wiki/Microkernel#Nanokernel
 [14_2]:https://en.wikipedia.org/wiki/Exokernel
 [14_3]:https://es.wikipedia.org/wiki/Micron%C3%BAcleo
@@ -107,12 +109,5 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 
 ---
 ## Mas Recursos
-- [Emulador](https://es.wikipedia.org/wiki/Emulador) (Wikipedia)
+- [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
 - [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
-- [Computación en la nube](https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube) (Wikipedia)
-- [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
-- [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
-- [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Google Compute Engine](https://en.wikipedia.org/wiki/Google_Compute_Engine) (Wikipedia)
-- [IBM Cloud VS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Oracle Cloud VM](https://es.wikipedia.org/wiki/Oracle_Cloud) (Wikipedia)
