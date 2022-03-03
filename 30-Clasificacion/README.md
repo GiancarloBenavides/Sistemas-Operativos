@@ -30,6 +30,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * [Multi-acceso][11_3]
 * [Multi-estación][11_4]
 
+![diagrama Multi-estación](img/multi-access.svg "Multi-estación")
+
 [11_1]:https://es.wikipedia.org/wiki/Monousuario
 [11_2]:https://es.wikipedia.org/wiki/Multiusuario
 [11_3]:https://es.wikipedia.org/wiki/Multiacceso
