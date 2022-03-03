@@ -36,15 +36,22 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 [11_4]:https://es.wikipedia.org/wiki/Multiestaci%C3%B3n
 
 
-## 1.2. Por el número de tareas ✔
+## 1.2. Por el número de tareas [(procesos)][12_01] ✔
 * [Mono-tarea][12_1]
 * [Multi-tarea cooperativa][12_2]
 * [Multi-tarea apropiativa][12_3]
-* [Multi-hilo][12_4]
 * [Multi-tarea real][12_5]
 
-![HPE Server](img/Multithreading.png "ProLiant-DL385")
+![Estados del procesamiento](../21-Multitarea/img/process_state.svg "Diagrama de estados procesamiento")
 
+## 1.2.1. Por el número de hilos [(sub-procesos)][12_02] ✔
+* [Mono-hilo][12_1]
+* [Multi-hilo][12_4]
+
+![Ejecución multi-hilo](img/Multithreading.png "5 hilos por núcleo")
+
+[12_01]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
+[12_02]:https://es.wikipedia.org/wiki/Hilo_(inform%C3%A1tica)#
 [12_1]:https://es.wikipedia.org/wiki/Monotarea
 [12_2]:https://es.wikipedia.org/wiki/Multitarea_cooperativa
 [12_3]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
@@ -97,6 +104,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 ## 1.6. Por la ubicación de los recursos ✔
 * [Sistema operativo distribuido][16_1]
 * [Sistema operativo de mainframes][16_2]
+
+![Imagen de sistemas distribuidos](img/os-distributed.svg "Sistemas Distribuidos")
 
 [16_1]:https://en.wikipedia.org/wiki/Distributed_operating_system
 [16_2]:https://es.wikipedia.org/wiki/Unidad_central
@@ -184,5 +193,6 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 ---
 ## Mas Recursos
 - [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
+- [Micro-kernel o Monolitivo ](https://www.xataka.com/historia-tecnologica/linux-esta-obsoleto-historia-detras-declaracion-que-provoco-debate-apasionante-acerca-este-sistema-operativo-1) (XATAKA)
 - [Computadoras paralelas](https://es.wikipedia.org/wiki/Computaci%C3%B3n_paralela#Clases_de_computadoras_paralelas) (Wikipedia)
 - [Concurrencia](https://es.wikipedia.org/wiki/Concurrencia_(inform%C3%A1tica)) (Wikipedia)
