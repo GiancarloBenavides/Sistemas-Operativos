@@ -168,7 +168,7 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * GUI: [Gnome][4_3]
 * Framework: [GTK][4_4]
 
-![Arquitectura Linux](img/type-kernel.svg "Arquitectura Linux")
+![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
 [4_0]:https://en.wikipedia.org/wiki/Ubuntu
 [4_1]:https://en.wikipedia.org/wiki/Linux_kernel
@@ -183,7 +183,7 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 * GUI: [Aqua][5_3]
 * Framework: [Cocoa][5_4]
 
-![Arquitectura macOS](img/type-kernel.svg "Arquitectura macOS")
+![Arquitectura macOS](img/macos.svg "Arquitectura macOS")
 
 [5_0]:https://en.wikipedia.org/wiki/MacOS_Monterey
 [5_1]:https://en.wikipedia.org/wiki/XNU
