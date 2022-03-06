@@ -28,7 +28,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 
 
 # 1.1. Ejemplos de primera generación ✔
-* __1951:__ [EDSAC][11_1] - construido en [Cambridge][11_2].    
+* __1951:__ [EDSAC][11_1] - construido en [Cambridge][11_2]. 
 * __1955:__ [UNIVAC][11_3] - construido por [Remington][11_4].
 * __1955:__ [IBM-701][11_5] - construido por [GM][11_6].
 * __1956:__ [__GM-NAA I/O__][11_7] - por [GM][11_6] para [IBM-704][11_8].
@@ -43,7 +43,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * Basado en el sistema monitor del _IBM 701_.
 * Programado en	_lenguaje ensamblador_.
 * La función principal era el _monitor residente_.
-* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
+* Ejecutaba automáticamente un nuevo programa cada vez que otro terminaba.
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
 
@@ -61,7 +61,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 
 # 2.1. Ejemplos de segunda generación ✔
 * __1962:__ [GECOS][21_1] - construido por [GE][21_2].
-* __1963:__ [CTSS][21_3] - construido en [MIT][21_4].  
+* __1963:__ [CTSS][21_3] - construido en [MIT][21_4]. 
 * __1965:__ [__Multics__][21_5] - en el [MIT][21_4] por [GE][21_2] y [Bell Labs][11_10].
 * __1965:__ [DECsys][21_6] - construido por [DEC][21_7] para [PDP-7][21_8]. 
 * __1966:__ [OS/360][21_9] - construido por [IBM][21_11] para [S/360][21_12]. 
@@ -220,14 +220,16 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 [21_6]:https://en.wikipedia.org/wiki/PDP-7#Software
 [21_7]:https://es.wikipedia.org/wiki/Digital_Equipment_Corporation
 [21_8]:https://es.wikipedia.org/wiki/PDP-7
+
 [21_9]:https://es.wikipedia.org/wiki/OS/360
 [21_10]:https://es.wikipedia.org/wiki/OS/360
+
 [21_11]:https://es.wikipedia.org/wiki/IBM
 [21_12]:https://es.wikipedia.org/wiki/IBM_S/360
 [22_0]:https://es.wikipedia.org/wiki/Sistema_IBM_de_gran_porte_(mainframe)#
 [22_1]:https://en.wikipedia.org/wiki/History_of_IBM_mainframe_operating_systems
-[22_2]:https://en.wikipedia.org/wiki/DOS/360_and_successors
-[22_3]:https://en.wikipedia.org/wiki/OS/360_and_successors
+[22_2]:https://en.wikipedia.org/wiki/OS/360_and_successors
+[22_3]:https://en.wikipedia.org/wiki/DOS/360_and_successors
 [23_0]:https://es.wikipedia.org/wiki/Serie_GE-600
 [23_1]:https://es.wikipedia.org/wiki/PL/1
 [23_2]:http://web.mit.edu/Saltzer/www/multics.html

@@ -136,7 +136,7 @@ mount --bind {{path/to/old_dir}} {{path/to/new_dir}}
 |:---|:---|
 | [useradd][man_1] | Agrega un nuevo usuario |
 | [userdel][man_2] | Borra un usuario |
-| [passwd][man_3]  | Permite cambiar la contraseña |
+| [passwd][man_3] | Permite cambiar la contraseña |
 | [id][man_4] | Muestra identificación del usuario |
 | [groupadd][man_5] | Agrega un nuevo grupo de trabajo |
 | [groupdel][man_6] | Borra un grupo de trabajo |

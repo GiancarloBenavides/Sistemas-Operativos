@@ -3,7 +3,7 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ## Clasificación
-Existen diversas clasificaciones desde distintos puntos de vista para los sistemas operativos.
+Un sistema operativo (SO) es un conjunto de programas o software destinado a permitir la comunicación del usuario con un ordenador y gestionar sus recursos de manera cómoda y eficiente. Comienza a trabajar cuando se enciende el ordenador, y gestiona el hardware de la máquina desde los niveles más básicos. (Wikipedia).
 
 ## Agenda
 1. [Clasificación de Sistemas operativos](#1-clasificación-so).
@@ -25,6 +25,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 
 
 ## 1.1. Por el número de usuarios ✔
+Los sistemas operativos de un solo usuario no tienen funciones para distinguir a los usuarios, pero pueden permitir que varios programas se ejecuten en tándem . [8] Un sistema operativo multiusuario amplía el concepto básico de multitarea con funciones que identifican procesos y recursos, como el espacio en disco, que pertenecen a varios usuarios, y el sistema permite que varios usuarios interactúen con el sistema al mismo tiempo
+
 * [Mono-usuarios][11_1]
 * [Multi-usuarios][11_2]
 * [Multi-acceso][11_3]
@@ -39,6 +41,8 @@ La [virtualización de datos][1_0] Consiste en integrar datos de fuentes dispers
 
 
 ## 1.2. Por el número de tareas [(procesos)][12_01] ✔
+Un sistema de una sola tarea solo puede ejecutar un programa a la vez, mientras que un sistema operativo multi-tarea permite que más de un programa se ejecute al mismo tiempo.
+
 * [Mono-tarea][12_1]
 * [Multi-tarea cooperativa][12_2]
 * [Multi-tarea apropiativa][12_3]

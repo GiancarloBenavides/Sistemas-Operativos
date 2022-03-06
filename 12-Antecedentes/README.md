@@ -48,49 +48,49 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 
 <table>
 	<tr >
-	    <td rowspan="9"> <img src="img/arduino_uno.png" alt="Arduino Uno"> </td>
-	    <td colspan="2" style="text-align: center;">
-            <a href="https://es.wikipedia.org/wiki/Arduino_Uno">
-                <b>Arduino UNO</b>
-            </a>
-        </td>
+	 <td rowspan="9"> <img src="img/arduino_uno.png" alt="Arduino Uno"> </td>
+	 <td colspan="2" style="text-align: center;">
+ <a href="https://es.wikipedia.org/wiki/Arduino_Uno">
+ <b>Arduino UNO</b>
+ </a>
+ </td>
 	</tr>
-    <tr >
-	    <td>Procesador:</td>
-	    <td><a href="https://es.wikipedia.org/wiki/Atmega328">ATmega328</a> </td>
+ <tr >
+	 <td>Procesador:</td>
+	 <td><a href="https://es.wikipedia.org/wiki/Atmega328">ATmega328</a> </td>
 	</tr>
-    <tr >
-	    <td>Velocidad:</td>
-	    <td>16 Mhz</td>
+ <tr >
+	 <td>Velocidad:</td>
+	 <td>16 Mhz</td>
 	</tr>
-    <tr >
-	    <td>Memoria principal:</td>
-	    <td>2 KB 
-            <a href="https://es.wikipedia.org/wiki/SRAM">SRAM</a>
-        </td>
+ <tr >
+	 <td>Memoria principal:</td>
+	 <td>2 KB 
+ <a href="https://es.wikipedia.org/wiki/SRAM">SRAM</a>
+ </td>
 	</tr>
-    <tr >
-	    <td>Memoria programa:</td>
-	    <td>32 KB 
-            <a href="https://es.wikipedia.org/wiki/Memoria_flash">Flash</a>
-        </td>
+ <tr >
+	 <td>Memoria programa:</td>
+	 <td>32 KB 
+ <a href="https://es.wikipedia.org/wiki/Memoria_flash">Flash</a>
+ </td>
 	</tr>
-    <tr >
-	    <td>Voltaje:</td>
-	    <td>5 V</td>
+ <tr >
+	 <td>Voltaje:</td>
+	 <td>5 V</td>
 	</tr>
-        <tr >
-	    <td>Potencia:</td>
-	    <td>100 mW</td>
+ <tr >
+	 <td>Potencia:</td>
+	 <td>100 mW</td>
 	</tr>
-    <tr >
-	    <td>Comunicación:</td>
-	    <td><small>
-            <a href="https://es.wikipedia.org/wiki/Universal_Serial_Bus">USB</a> -
-            <a href="https://es.wikipedia.org/wiki/Universal_Asynchronous_Receiver-Transmitter">UART</a>
-            <a href="https://es.wikipedia.org/wiki/Serial_Peripheral_Interface">SPI</a> -
-            <a href="https://es.wikipedia.org/wiki/I%C2%B2C">I²C</a></small>
-        </td>
+ <tr >
+	 <td>Comunicación:</td>
+	 <td><small>
+ <a href="https://es.wikipedia.org/wiki/Universal_Serial_Bus">USB</a> -
+ <a href="https://es.wikipedia.org/wiki/Universal_Asynchronous_Receiver-Transmitter">UART</a>
+ <a href="https://es.wikipedia.org/wiki/Serial_Peripheral_Interface">SPI</a> -
+ <a href="https://es.wikipedia.org/wiki/I%C2%B2C">I²C</a></small>
+ </td>
 	</tr>
 </table>
 

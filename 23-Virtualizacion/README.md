@@ -144,7 +144,7 @@ Un [ejecutor][3_0] de contenedores o [CT][3_1] es una capa de software que permi
 
 
 ## 3.4. Diagrama de capas ✔
-![Capas de virtualización con contenedores](img/type-container-engine.svg  "Container-runtime")
+![Capas de virtualización con contenedores](img/type-container-engine.svg "Container-runtime")
 
 <small>Papers: 
 1: [Espinosa Tigre, Rodolfo Moisés. (2019). Análisis comparativo de un hipervisor nativo propietario y libre como alternativa de solución para el proceso de almacenamiento de datos. Escuela Superior Politécnica de Chimborazo. Riobamba.](http://dspace.espoch.edu.ec/bitstream/123456789/10832/1/20T01201.pdf)
@@ -160,7 +160,7 @@ Un [ejecutor][3_0] de contenedores o [CT][3_1] es una capa de software que permi
 
 
 ## 4. Virtualización de infraestructura de red
-los servicios de [red virtualizados][4_0] son una capa de software que provee una solución similar al componente físico real y son necesarios para comunicar los diferentes componentes virtuales de un sistema informático.  
+los servicios de [red virtualizados][4_0] son una capa de software que provee una solución similar al componente físico real y son necesarios para comunicar los diferentes componentes virtuales de un sistema informático. 
  
 * ><i>"Los servidores físicos, privados o públicos son irrelevantes para el usuario final, Las nubes híbridas se están convirtiendo en la solución predeterminada."</i><br>
 <cite style="display:block; text-align: right">[Paul Cormier](https://en.wikipedia.org/wiki/Paul_Cormier_(engineer))</cite>
@@ -197,10 +197,10 @@ los servicios de [red virtualizados][4_0] son una capa de software que provee un
 
 
 ## 4.3. Diagrama de servicios nube ✔
-![Capas de virtualización](img/type-cloud-services.svg  "Servicios")
+![Capas de virtualización](img/type-cloud-services.svg "Servicios")
 
 
-## 4.5. Ejemplos de servicios en nube  ✔
+## 4.5. Ejemplos de servicios en nube ✔
 * [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
 * [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
 * [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
