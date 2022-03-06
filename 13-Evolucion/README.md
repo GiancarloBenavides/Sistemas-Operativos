@@ -36,7 +36,7 @@ Los primeros sistemas de procesamiento digital, eran grandes y costosas máquina
 * __1959:__ [SOS][11_11] - por [Share User Group][11_12] para [IBM-704][11_8].
 
 
-# 1.2. Caso de estudio - GM-NAA I/O ✔
+# 1.2. Caso de estudio - [GM-NAA I/O](https://es.wikipedia.org/wiki/GM-NAA_I/O) ✔
 * Desarrollado en 1956.
 * Financiado por _General Motors Research Laboratories_.
 * Desarrollado para [__IBM-704__][11_8] de 36 Bit.

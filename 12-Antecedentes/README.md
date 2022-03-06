@@ -41,10 +41,30 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 
 
 # 2.2 Arquitectura Harvard ✔
-![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
+El [Harvard Mark I][22_0] fue el primer ordenador electromecánico, basado en la máquina analítica de Charles Babbage, construido en IBM y enviado a Harvard en 1944.
+
+![Arquitectura Harvard](img/z1_architecture.svg "Arquitectura Harvard")
+
+[22_0]:https://es.wikipedia.org/wiki/Harvard_Mark_I
 
 
-# 3. Arquitecturas de micro-controlador
+# 2.3 Primer ordenador electrónico Turing-Completo ✔
+El [ENIAC][23_0] fue el primer ordenador electrónico, digital programable y Turing-completo, de uso general y capaz de resolver una gran clase de problemas numéricos. Fabricado en la Universidad de Pensilvania por John Presper Eckert y John William Mauchly en 1945.
+
+![Programadoras del ENIAC](img/first_female_programers.png "Mujeres ENIAC")
+
+[23_0]:https://es.wikipedia.org/wiki/ENIAC
+
+
+# 2.4 Primer ordenador de programa almacenado ✔
+El [EDVAC][24_0] fue el primer ordenador electrónico de programa almacenado. Fabricado por Jhon von Newman y el equipo [ENIAC][23_0] en 1946 en la Universidad de Pensilvania.
+
+![Arquitectura Von Newman](img/edvac_architecture.svg "Arquitectura EDVAC")
+
+[24_0]:https://es.wikipedia.org/wiki/EDVAC
+
+
+# 3. Arquitecturas de micro-controlador ✔
 
 <table>
 	<tr >

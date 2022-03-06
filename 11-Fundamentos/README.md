@@ -71,10 +71,10 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 
 
 ### 2.1.2. Elementos de almacenamiento en un sistema digital
-* [__HDD__][171]/[__SSD:__][172] Memoria persistente
-* [__MM:__][18] Memoria principal
-* [__L1/L2/L3:__][19] Cache
-* [__GPR:__][20] Registros
+* [__HDD__][171]/[__SSD:__][172] Memoria persistente.
+* [__MM:__][18] Memoria principal.
+* [__L1/L2/L3:__][19] Cache.
+* [__GPR:__][20] Registros.
 
 [171]:https://es.wikipedia.org/wiki/Unidad_de_disco_duro
 [172]:https://es.wikipedia.org/wiki/Unidad_de_estado_s%C3%B3lido
@@ -84,8 +84,8 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 
 
 ### 2.1.3. Elementos de control en un sistema digital
-* [__Chipset:__][20] Registros
-* [__Firmware:__][20]
+* [__Chipset:__][20] Registros.
+* [__Firmware:__][20] Software de control de hardware.
 
 
 ## 2.2. Periféricos ✔
@@ -100,11 +100,11 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 
 
 ### 2.3.1. Elementos de software se un sistema digital
-* [__Scheduler:__][21] Planificador de tareas 
-* [__Driver:__][22] Controladores de dispositivo
-* [__Library:__][23] Bibliotecas
-* [__Shell:__][24] Interpretes de comandos
-* [__API:__][25] Interfaces de programación
+* [__Scheduler:__][21] Planificador de tareas.
+* [__Driver:__][22] Controladores de dispositivo.
+* [__Library:__][23] Bibliotecas.
+* [__Shell:__][24] Interpretes de comandos.
+* [__API:__][25] Interfaces de programación.
 
 [21]:https://es.wikipedia.org/wiki/Planificador
 [22]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
@@ -114,10 +114,10 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 
 
 ### 2.3.2. Utilidades en un sistema digital
-* [__Assembler:__][26] Ensambladores
-* [__Compiler:__][27] Compiladores
-* [__Linker:__][28] Enlazadores
-* [__Interpreter:__][29] Interpretes
+* [__Assembler:__][26] Ensambladores.
+* [__Compiler:__][27] Compiladores.
+* [__Linker:__][28] Enlazadores.
+* [__Interpreter:__][29] Interpretes.
 
 [26]:https://es.wikipedia.org/wiki/Ensamblador
 [27]:https://es.wikipedia.org/wiki/Compilador
@@ -190,8 +190,8 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 
 
 ## 3.4 Calidad SO ✔
-* Son aplicables los principios de la [calidad del software][341] 
-* Modelo [ISO/IEC 25000][342]
+* Son aplicables los principios de la [calidad del software][341].
+* Modelo [ISO/IEC 25000][342].
 
 ![mapa de procesos](img/software_quality.png "Calidad del Software")
 
