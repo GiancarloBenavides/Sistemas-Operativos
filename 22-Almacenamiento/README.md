@@ -127,7 +127,7 @@ mount --bind {{path/to/old_dir}} {{path/to/new_dir}}
 # 3. Usuarios y permisos
 * Crear, modificar y eliminar usuarios.
 * Asignar roles a los usuarios.
-* Asignar permisos a los roles y usuarios 
+* Asignar permisos a los roles y usuarios.
 
 
 ## 3.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
