@@ -92,8 +92,17 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [22_6]:https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
 
 
-## 2.3. Caso de uso - Zen3 \[[Epyc 73F3][23_1]\]
-![cache](img/epyc_amd_memory.svg "jerarquía de cache")
+## 2.3. Caso de uso - Zen3 \[[Epyc 7313P][23_1]\]
+* __4 CCD__ : Core Chiplet Die = Chiplet.
+* __4 CCX__ : Core complex = Complejo de CPU.
+* __4 CORES__ habilitados por cada CCX.
+* __64 Kb__ de Cache L1 por núcleo.
+* __512 Kb__ de Cache L2 por núcleo.
+* __32 MB__ de Cache L3 por CCX.
+* __1 NUMA DOMAIN__ por cada CCX.
+
+### 2.3.1 Chiplet Zen 3
+![cache](img/epyc_amd_chiplet.svg "jerarquía de cache")
 
 [23_1]:https://en.wikipedia.org/wiki/Epyc
 
