@@ -94,6 +94,8 @@ Un [hipervisor][2_0] o monitor de máquina virtual, [VM][2_1]; es una capa de so
 | [Proxmox VE][23_5] | [Parallels][23_6] |
 | [Xen][23_7] | [VirtualBox][23_8] |
 
+![Hipervisor](img/hardware_vitualization_options.png "Hipervisor")
+
 [23_1]:https://es.wikipedia.org/wiki/Hyper-V
 [23_2]:https://en.wikipedia.org/wiki/QEMU
 [23_3]:https://en.wikipedia.org/wiki/VMware_ESXi
