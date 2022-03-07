@@ -1,0 +1,160 @@
+# Sistemas operacionales
+<p><code>Fundamentos de sistemas operativos</code></p>
+<p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
+
+## Tipos de sistemas Operativos
+Un SO es un conjunto de programas destinados a permitir la comunicación del usuario con el sistema cuando se enciende y ayuda gestionar sus recursos de hardware de manera cómoda y eficiente, por tanto sus caracteristicas están relacionadas con el hardware asociado.
+
+
+## Agenda
+1. [Clasificación por tipo de hardware](#1-clasificación-por-tipo-de-hardware).
+1. [Clasificación por tipo de usuarios](#2-clasificación-por-tipo-de-usuarios).
+1. [Clasificación por su estructura](#3-clasificación-por-su-estructura).
+
+<br>
+
+
+---
+# 1. Clasificación por tipo de hardware
+Un SO es un conjunto de programas destinados a permitir la comunicación del usuario con el sistema cuando se enciende y ayuda gestionar sus recursos de hardware de manera cómoda y eficiente, por tanto sus caracteristicas están relacionadas con el hardware asociado.
+
+* ><i>"Si hubiera un concurso para hallar el lenguaje ensamblador más incomprensible del mundo, el SPARC sería uno de los favoritos."</i><br>
+<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+
+## 1.1. Por el número de tareas [(procesos)][11_0] ✔
+Un sistema de una sola tarea solo puede ejecutar un programa a la vez, mientras que un sistema operativo multi-tarea permite que más de un programa se ejecute al mismo tiempo.
+
+* [Mono-tarea][11_1]
+* [Multi-tarea cooperativa][11_2]
+* [Multi-tarea apropiativa][11_3]
+* [Multi-tarea real][11_4]
+
+![Estados del procesamiento](../21-Multitarea/img/process_state.svg "Diagrama de estados procesamiento")
+
+[11_0]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
+[11_1]:https://es.wikipedia.org/wiki/Monotarea
+[11_2]:https://es.wikipedia.org/wiki/Multitarea_cooperativa
+[11_3]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
+[11_4]:https://es.wikipedia.org/wiki/Multitarea#Real
+
+
+## 1.2. Por el número de hilos [(sub-procesos)][12_0] ✔
+* [Mono-hilo][12_1]
+* [Multi-hilo][12_2]
+
+![Ejecución multi-hilo](img/Multithreading.png "5 hilos por núcleo")
+
+[12_0]:https://es.wikipedia.org/wiki/Hilo_(inform%C3%A1tica)#
+[12_1]:https://es.wikipedia.org/wiki/Hilo_(inform%C3%A1tica)#
+[12_2]:https://es.wikipedia.org/wiki/Multihilo
+
+
+## 1.3. Por el número de procesadores ✔
+Un sistema de un solo procesador no puede ejecutar multi-tarea real, mientras que un sistema multi-procesador permite multi-tarea real y compartir recursos de memoria con otros procesadores.
+
+* [Mono-procesador][13_1]
+* [Multi-procesamiento simétrico][13_2]
+* [Multi-procesamiento asimétrico][13_3]
+* [NUMA][13_4]
+
+[![HPE Server](img/HPE-ProLiant-DL385-Gen10.png "ProLiant-DL385")](https://buy.hpe.com/es/es/servers/proliant-dl-servers/proliant-dl300-servers/proliant-dl385-server/hpe-proliant-dl385-gen10-plus-v2-server/p/1013291283)
+
+[13_1]:https://es.wikipedia.org/wiki/Monoprocesador
+[13_2]:https://es.wikipedia.org/wiki/Multiprocesamiento_sim%C3%A9trico
+[13_3]:https://en.wikipedia.org/wiki/Asymmetric_multiprocessing
+[13_4]:https://es.wikipedia.org/wiki/NUMA
+
+
+# 2. Clasificación por tipo de usuarios
+Un SO multi-usuario amplía el concepto básico de multi-tarea con funciones que identifican procesos y recursos, con un espacio de usuario, de manera que incorpora funcionalidad para distinguir varios tipos de usuarios y puede asignarles los recursos necesarios o permitidos de distinta manera.
+
+* ><i>"Si la gente no piensa que las matemáticas son simples, es solo porque no se dan cuenta de lo complicada que es la vida."</i><br>
+<cite style="display:block; text-align: right">[John von Neumann](https://es.wikipedia.org/wiki/John_von_Neumann)</cite>
+
+
+## 2.1. Por el número de usuarios ✔
+Un sistema de un solo usuario no tiene funciones para distinguir a los usuarios, mientras que un sistema multi-usuario amplía el concepto básico de multi-tarea con funciones que identifican procesos y recursos, con un espacio de usuario, y el sistema permite que varios usuarios interactúen con el sistema al mismo tiempo.
+
+* [Mono-usuarios][12_1]
+* [Multi-usuarios][12_2]
+* [Multi-acceso][12_3]
+* [Multi-estación][12_4]
+
+![Diagrama Multi-estación](img/multi-station.svg "Multi-estación")
+
+[12_1]:https://es.wikipedia.org/wiki/Monousuario
+[12_2]:https://es.wikipedia.org/wiki/Multiusuario
+[12_3]:https://es.wikipedia.org/wiki/Multiacceso
+[12_4]:https://es.wikipedia.org/wiki/Multiestaci%C3%B3n
+
+
+## 2.2. Por el tipo de cliente ✔
+* [De cliente liviano][15_1]
+* [De cliente pesado][15_2]
+* [De cliente híbrido][15_3]
+
+![Tipos de Kernel](img/HP-thin-client.png "Kernel")
+
+[15_1]:https://es.wikipedia.org/wiki/Cliente_liviano
+[15_2]:https://es.wikipedia.org/wiki/Cliente_pesado
+[15_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
+
+
+## 2.3. Por el propósito ✔
+* [Sistema operativo de propósito general][13_1]
+* [Sistema operativo de servidor][13_4]
+* [Sistema operativo de estación de trabajo][13_2]
+* [Sistema operativo de teléfono inteligente][13_3]
+* [Sistema operativo embebido][13_6]
+* [Sistema operativo de tiempo real][13_7]
+
+[13_1]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
+[13_2]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
+[13_3]:https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente
+[13_4]:https://es.wikipedia.org/wiki/Servidor
+[13_6]:https://es.wikipedia.org/wiki/Sistema_operativo_embebido
+[13_7]:https://es.wikipedia.org/wiki/Sistema_operativo_de_tiempo_real
+
+
+# 3. Clasificación por su estructura
+Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas o módulos, de forma que  
+
+* ><i>"Si la gente no piensa que las matemáticas son simples, es solo porque no se dan cuenta de lo complicada que es la vida."</i><br>
+<cite style="display:block; text-align: right">[John von Neumann](https://es.wikipedia.org/wiki/John_von_Neumann)</cite>
+
+
+## 3.1. Por el tipo de núcleo ✔
+Un sistema puede restringir el modo protegido a pocos o muchos componentes y de ello dependerá su clasificación.
+
+* [De Nano-núcleo][14_1]
+* [De Exo-núcleo][14_2]
+* [De Micro-núcleo][14_3]
+* [De Núcleo Monolítico][14_4]
+* [De Núcleo híbrido][14_5]
+
+![Tipos de Kernel](img/type-kernel.svg "Kernel")
+
+[14_1]:https://en.wikipedia.org/wiki/Microkernel#Nanokernel
+[14_2]:https://en.wikipedia.org/wiki/Exokernel
+[14_3]:https://es.wikipedia.org/wiki/Micron%C3%BAcleo
+[14_4]:https://es.wikipedia.org/wiki/N%C3%BAcleo_monol%C3%ADtico
+[14_5]:https://es.wikipedia.org/wiki/N%C3%BAcleo_h%C3%ADbrido
+
+
+## 3.2. Por la ubicación de los recursos ✔
+* [Sistema operativo distribuido][16_1]
+* [Sistema operativo de mainframes][16_2]
+
+![Imagen de sistemas distribuidos](img/os-distributed.svg "Sistemas Distribuidos")
+
+[16_1]:https://en.wikipedia.org/wiki/Distributed_operating_system
+[16_2]:https://es.wikipedia.org/wiki/Unidad_central
+
+
+---
+## Mas Recursos
+- [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
+- [Micro-kernel o Monolitivo ](https://www.xataka.com/historia-tecnologica/linux-esta-obsoleto-historia-detras-declaracion-que-provoco-debate-apasionante-acerca-este-sistema-operativo-1) (XATAKA)
+- [Computadoras paralelas](https://es.wikipedia.org/wiki/Computaci%C3%B3n_paralela#Clases_de_computadoras_paralelas) (Wikipedia)
+- [Concurrencia](https://es.wikipedia.org/wiki/Concurrencia_(inform%C3%A1tica)) (Wikipedia)
