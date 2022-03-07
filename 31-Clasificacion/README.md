@@ -25,10 +25,10 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 ## 1.1. Por el número de tareas [(procesos)][11_0] ✔
 Un sistema de una sola tarea solo puede ejecutar un programa a la vez, mientras que un sistema operativo multi-tarea permite que más de un programa se ejecute al mismo tiempo.
 
-* [Mono-tarea][11_1]
-* [Multi-tarea cooperativa][11_2]
-* [Multi-tarea apropiativa][11_3]
-* [Multi-tarea real][11_4]
+* [Mono-tarea][11_1].
+* [Multi-tarea cooperativa][11_2].
+* [Multi-tarea apropiativa][11_3].
+* [Multi-tarea real][11_4].
 
 ![Estados del procesamiento](../21-Multitarea/img/process_state.svg "Diagrama de estados procesamiento")
 
@@ -40,8 +40,10 @@ Un sistema de una sola tarea solo puede ejecutar un programa a la vez, mientras 
 
 
 ## 1.2. Por el número de hilos [(sub-procesos)][12_0] ✔
-* [Mono-hilo][12_1]
-* [Multi-hilo][12_2]
+Un sistema multi-hilo tiene soporte por hardware para ejecutar eficientemente múltiples hilos de ejecución de uno o varios procesos al mismo tiempo.
+
+* [Mono-hilo][12_1].
+* [Multi-hilo][12_2].
 
 ![Ejecución multi-hilo](img/Multithreading.png "5 hilos por núcleo")
 
@@ -53,10 +55,10 @@ Un sistema de una sola tarea solo puede ejecutar un programa a la vez, mientras 
 ## 1.3. Por el número de procesadores ✔
 Un sistema de un solo procesador no puede ejecutar multi-tarea real, mientras que un sistema multi-procesador permite multi-tarea real y compartir recursos de memoria con otros procesadores.
 
-* [Mono-procesador][13_1]
-* [Multi-procesamiento simétrico][13_2]
-* [Multi-procesamiento asimétrico][13_3]
-* [NUMA][13_4]
+* [Mono-procesador][13_1].
+* [Multi-procesamiento simétrico][13_2].
+* [Multi-procesamiento asimétrico][13_3].
+* [NUMA][13_4].
 
 [![HPE Server](img/HPE-ProLiant-DL385-Gen10.png "ProLiant-DL385")](https://buy.hpe.com/es/es/servers/proliant-dl-servers/proliant-dl300-servers/proliant-dl385-server/hpe-proliant-dl385-gen10-plus-v2-server/p/1013291283)
 
@@ -74,12 +76,12 @@ Un SO multi-usuario amplía el concepto básico de multi-tarea con funciones que
 
 
 ## 2.1. Por el número de usuarios ✔
-Un sistema de un solo usuario no tiene funciones para distinguir a los usuarios, mientras que un sistema multi-usuario amplía el concepto básico de multi-tarea con funciones que identifican procesos y recursos, con un espacio de usuario, y el sistema permite que varios usuarios interactúen con el sistema al mismo tiempo.
+Un sistema multi-usuario identifica procesos y recursos, con un espacio de usuario, mientras que un sistema multi-acceso permite que varios usuarios interactúen con el sistema al mismo tiempo.
 
-* [Mono-usuarios][21_1]
-* [Multi-usuarios][21_2]
-* [Multi-acceso][21_3]
-* [Multi-estación][21_4]
+* [Mono-usuarios][21_1].
+* [Multi-usuarios][21_2].
+* [Multi-acceso][21_3].
+* [Multi-estación][21_4].
 
 ![Diagrama Multi-estación](img/multi-station.svg "Multi-estación")
 
@@ -89,21 +91,24 @@ Un sistema de un solo usuario no tiene funciones para distinguir a los usuarios,
 [21_4]:https://es.wikipedia.org/wiki/Multiestaci%C3%B3n
 
 
-## 2.2. Por el tipo de cliente ✔
-* [De cliente liviano][22_1]
-* [De cliente pesado][22_2]
-* [De cliente híbrido][22_3]
+## 2.2. Por su capacidad de procesamiento ✔
+Un sistema de cliente liviano se apoya en el servidor para las tareas de procesamiento, y se enfoca principalmente en transportar la entrada y la salida entre el usuario y el servidor remoto; mientras que un cliente pesado ejecuta la mayor carga de cómputo
 
-![Tipos de Kernel](img/HP-thin-client.png "Kernel")
+* [Sistema operativo de servidor][22_1].
+* [Sistema operativo de cliente liviano][22_2].
+* [Sistema operativo de cliente pesado][22_3].
+* [Sistema operativo de cliente híbrido][22_4].
 
-[22_1]:https://es.wikipedia.org/wiki/Cliente_liviano
-[22_2]:https://es.wikipedia.org/wiki/Cliente_pesado
-[22_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
+![Tipos de cliente](img/HP-thin-client.png "Cliente liviano de servidor")
+
+[22_1]:https://es.wikipedia.org/wiki/Servidor
+[22_2]:https://es.wikipedia.org/wiki/Cliente_liviano
+[22_3]:https://es.wikipedia.org/wiki/Cliente_pesado
+[22_4]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
 
 
 ## 2.3. Por el propósito ✔
 * [Sistema operativo de propósito general][23_1]
-* [Sistema operativo de servidor][23_4]
 * [Sistema operativo de estación de trabajo][23_2]
 * [Sistema operativo de teléfono inteligente][23_3]
 * [Sistema operativo embebido][23_6]
@@ -112,7 +117,7 @@ Un sistema de un solo usuario no tiene funciones para distinguir a los usuarios,
 [23_1]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
 [23_2]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
 [23_3]:https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente
-[23_4]:https://es.wikipedia.org/wiki/Servidor
+
 [23_6]:https://es.wikipedia.org/wiki/Sistema_operativo_embebido
 [23_7]:https://es.wikipedia.org/wiki/Sistema_operativo_de_tiempo_real
 
