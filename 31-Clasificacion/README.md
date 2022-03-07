@@ -69,59 +69,59 @@ Un sistema de un solo procesador no puede ejecutar multi-tarea real, mientras qu
 # 2. Clasificación por tipo de usuarios
 Un SO multi-usuario amplía el concepto básico de multi-tarea con funciones que identifican procesos y recursos, con un espacio de usuario, de manera que incorpora funcionalidad para distinguir varios tipos de usuarios y puede asignarles los recursos necesarios o permitidos de distinta manera.
 
-* ><i>"Si la gente no piensa que las matemáticas son simples, es solo porque no se dan cuenta de lo complicada que es la vida."</i><br>
+* ><i>"Si la gente no piensa que las matemáticas son simples;<br> es solo porque no se dan cuenta de lo complicada que es la vida."</i><br>
 <cite style="display:block; text-align: right">[John von Neumann](https://es.wikipedia.org/wiki/John_von_Neumann)</cite>
 
 
 ## 2.1. Por el número de usuarios ✔
 Un sistema de un solo usuario no tiene funciones para distinguir a los usuarios, mientras que un sistema multi-usuario amplía el concepto básico de multi-tarea con funciones que identifican procesos y recursos, con un espacio de usuario, y el sistema permite que varios usuarios interactúen con el sistema al mismo tiempo.
 
-* [Mono-usuarios][12_1]
-* [Multi-usuarios][12_2]
-* [Multi-acceso][12_3]
-* [Multi-estación][12_4]
+* [Mono-usuarios][21_1]
+* [Multi-usuarios][21_2]
+* [Multi-acceso][21_3]
+* [Multi-estación][21_4]
 
 ![Diagrama Multi-estación](img/multi-station.svg "Multi-estación")
 
-[12_1]:https://es.wikipedia.org/wiki/Monousuario
-[12_2]:https://es.wikipedia.org/wiki/Multiusuario
-[12_3]:https://es.wikipedia.org/wiki/Multiacceso
-[12_4]:https://es.wikipedia.org/wiki/Multiestaci%C3%B3n
+[21_1]:https://es.wikipedia.org/wiki/Monousuario
+[21_2]:https://es.wikipedia.org/wiki/Multiusuario
+[21_3]:https://es.wikipedia.org/wiki/Multiacceso
+[21_4]:https://es.wikipedia.org/wiki/Multiestaci%C3%B3n
 
 
 ## 2.2. Por el tipo de cliente ✔
-* [De cliente liviano][15_1]
-* [De cliente pesado][15_2]
-* [De cliente híbrido][15_3]
+* [De cliente liviano][22_1]
+* [De cliente pesado][22_2]
+* [De cliente híbrido][22_3]
 
 ![Tipos de Kernel](img/HP-thin-client.png "Kernel")
 
-[15_1]:https://es.wikipedia.org/wiki/Cliente_liviano
-[15_2]:https://es.wikipedia.org/wiki/Cliente_pesado
-[15_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
+[22_1]:https://es.wikipedia.org/wiki/Cliente_liviano
+[22_2]:https://es.wikipedia.org/wiki/Cliente_pesado
+[22_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
 
 
 ## 2.3. Por el propósito ✔
-* [Sistema operativo de propósito general][13_1]
-* [Sistema operativo de servidor][13_4]
-* [Sistema operativo de estación de trabajo][13_2]
-* [Sistema operativo de teléfono inteligente][13_3]
-* [Sistema operativo embebido][13_6]
-* [Sistema operativo de tiempo real][13_7]
+* [Sistema operativo de propósito general][23_1]
+* [Sistema operativo de servidor][23_4]
+* [Sistema operativo de estación de trabajo][23_2]
+* [Sistema operativo de teléfono inteligente][23_3]
+* [Sistema operativo embebido][23_6]
+* [Sistema operativo de tiempo real][23_7]
 
-[13_1]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
-[13_2]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
-[13_3]:https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente
-[13_4]:https://es.wikipedia.org/wiki/Servidor
-[13_6]:https://es.wikipedia.org/wiki/Sistema_operativo_embebido
-[13_7]:https://es.wikipedia.org/wiki/Sistema_operativo_de_tiempo_real
+[23_1]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
+[23_2]:https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_trabajo
+[23_3]:https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente
+[23_4]:https://es.wikipedia.org/wiki/Servidor
+[23_6]:https://es.wikipedia.org/wiki/Sistema_operativo_embebido
+[23_7]:https://es.wikipedia.org/wiki/Sistema_operativo_de_tiempo_real
 
 
 # 3. Clasificación por su estructura
-Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas o módulos, de forma que  
+Un SO es complejo y solo puede entenderse dividiendo su operación en módulos, de forma que cada según el propósito del sistema pueda incluir una o mas piezas funcionales.
 
-* ><i>"Si la gente no piensa que las matemáticas son simples, es solo porque no se dan cuenta de lo complicada que es la vida."</i><br>
-<cite style="display:block; text-align: right">[John von Neumann](https://es.wikipedia.org/wiki/John_von_Neumann)</cite>
+* ><i>"La ciencia es una ecuación diferencial; la religión es una condición de frontera."</i><br>
+<cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
 
 
 ## 3.1. Por el tipo de núcleo ✔
