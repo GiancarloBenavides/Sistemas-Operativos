@@ -18,7 +18,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 # 1. Clasificación por tipo de hardware
 Un SO es un conjunto de programas destinados a permitir la comunicación del usuario con el sistema cuando se enciende y ayuda gestionar sus recursos de hardware de manera cómoda y eficiente, por tanto sus caracteristicas están relacionadas con el hardware asociado.
 
-* ><i>"Si hubiera un concurso para hallar el lenguaje ensamblador más incomprensible del mundo, el SPARC sería uno de los favoritos."</i><br>
+* ><i>"Si hubiera un concurso para hallar el lenguaje ensamblador más incomprensible del mundo;<br> el SPARC sería uno de los favoritos."</i><br>
 <cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 
@@ -120,36 +120,36 @@ Un sistema de un solo usuario no tiene funciones para distinguir a los usuarios,
 # 3. Clasificación por su estructura
 Un SO es complejo y solo puede entenderse dividiendo su operación en módulos, de forma que cada según el propósito del sistema pueda incluir una o mas piezas funcionales.
 
-* ><i>"La ciencia es una ecuación diferencial; la religión es una condición de frontera."</i><br>
+* ><i>"La ciencia es una ecuación diferencial;<br> la religión es una condición de frontera."</i><br>
 <cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
 
 
 ## 3.1. Por el tipo de núcleo ✔
 Un sistema puede restringir el modo protegido a pocos o muchos componentes y de ello dependerá su clasificación.
 
-* [De Nano-núcleo][14_1]
-* [De Exo-núcleo][14_2]
-* [De Micro-núcleo][14_3]
-* [De Núcleo Monolítico][14_4]
-* [De Núcleo híbrido][14_5]
+* [De Nano-núcleo][31_1]
+* [De Exo-núcleo][31_2]
+* [De Micro-núcleo][31_3]
+* [De Núcleo Monolítico][31_4]
+* [De Núcleo híbrido][31_5]
 
 ![Tipos de Kernel](img/type-kernel.svg "Kernel")
 
-[14_1]:https://en.wikipedia.org/wiki/Microkernel#Nanokernel
-[14_2]:https://en.wikipedia.org/wiki/Exokernel
-[14_3]:https://es.wikipedia.org/wiki/Micron%C3%BAcleo
-[14_4]:https://es.wikipedia.org/wiki/N%C3%BAcleo_monol%C3%ADtico
-[14_5]:https://es.wikipedia.org/wiki/N%C3%BAcleo_h%C3%ADbrido
+[31_1]:https://en.wikipedia.org/wiki/Microkernel#Nanokernel
+[31_2]:https://en.wikipedia.org/wiki/Exokernel
+[31_3]:https://es.wikipedia.org/wiki/Micron%C3%BAcleo
+[31_4]:https://es.wikipedia.org/wiki/N%C3%BAcleo_monol%C3%ADtico
+[31_5]:https://es.wikipedia.org/wiki/N%C3%BAcleo_h%C3%ADbrido
 
 
 ## 3.2. Por la ubicación de los recursos ✔
-* [Sistema operativo distribuido][16_1]
-* [Sistema operativo de mainframes][16_2]
+* [Sistema operativo distribuido][32_1]
+* [Sistema operativo de mainframes][32_2]
 
 ![Imagen de sistemas distribuidos](img/os-distributed.svg "Sistemas Distribuidos")
 
-[16_1]:https://en.wikipedia.org/wiki/Distributed_operating_system
-[16_2]:https://es.wikipedia.org/wiki/Unidad_central
+[32_1]:https://en.wikipedia.org/wiki/Distributed_operating_system
+[32_2]:https://es.wikipedia.org/wiki/Unidad_central
 
 
 ---
