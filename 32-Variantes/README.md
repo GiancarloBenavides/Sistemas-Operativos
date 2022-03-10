@@ -83,8 +83,6 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 [5_4]:https://en.wikipedia.org/wiki/Cocoa_(API)#
 
 
-![no imagen](img/linux.svg "hola mundo")
-
 ---
 ## Mas Recursos
 - [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
