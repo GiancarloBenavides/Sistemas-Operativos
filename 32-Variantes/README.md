@@ -7,30 +7,17 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 
 
 ## Agenda
-1. [Ubuntu Server](#1-ubuntu-server).
-1. [Windows 10](#2-windows-10).
-1. [KDE Neon](#3-kde-neon).
-1. [Ubuntu Desktop](#3-ubuntu).
-1. [macOS](#4-macos).
+1. [Núcleo Linux](#1-ubuntu-server).
+1. [Derivaciones](#1-ubuntu-server).
+1. [Versiones](#2-windows-10).
+1. [Distribuciones](#3-kde-neon).
 
 <br>
 
 
 ---
-# 1. Ubuntu Server
-* Versión: [Jammy Jellyfish][1_0]
-* Núcleo: monolítico ([Linux][1_1])
-* API: [Linux API][1_2]
-* GUI: [Gnome][1_3]
-* Framework: [GTK][1_4]
+# 1. Núcleo de Linux
 
-![Arquitectura Linux](img/linux-kde.svg "Arquitectura Linux")
-
-[1_0]:https://en.wikipedia.org/wiki/Ubuntu
-[1_1]:https://en.wikipedia.org/wiki/Linux_kernel
-[1_2]:https://en.wikipedia.org/wiki/Linux_kernel_interfaces
-[1_3]:https://en.wikipedia.org/wiki/GNOME
-[1_4]:https://en.wikipedia.org/wiki/GTK
 
 
 # 2. Windows 11
@@ -95,6 +82,8 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 [5_3]:https://en.wikipedia.org/wiki/Aqua_(user_interface)#
 [5_4]:https://en.wikipedia.org/wiki/Cocoa_(API)#
 
+
+![no imagen](img/linux.svg "hola mundo")
 
 ---
 ## Mas Recursos

@@ -10,6 +10,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 1. [Clasificación por tipo de hardware](#1-clasificación-por-tipo-de-hardware).
 1. [Clasificación por tipo de usuarios](#2-clasificación-por-tipo-de-usuarios).
 1. [Clasificación por su estructura](#3-clasificación-por-su-estructura).
+1. [Clasificación por derechos de autor](#4-clasificación-por-derechos-de-autor).
 
 <br>
 
@@ -155,6 +156,14 @@ Un sistema puede restringir el modo protegido a pocos o muchos componentes y de 
 
 [32_1]:https://en.wikipedia.org/wiki/Distributed_operating_system
 [32_2]:https://es.wikipedia.org/wiki/Unidad_central
+
+
+# 4 Clasificación por derechos de autor
+* [**Copyright:**](https://es.wikipedia.org/wiki/Derecho_de_autor) licencias de software que se reservan los derechos patrimoniales y otorgan derechos de utilización bajo distintos modelos comerciales.
+* [**Copyleft:**](https://es.wikipedia.org/wiki/Copyleft) licencias de software relacionadas con mantener libres los derechos patrimoniales y de utilización.
+* [**Código abierto:**](https://es.wikipedia.org/wiki/Licencia_de_c%C3%B3digo_abierto) licencias que permiten que tanto el código fuente como los archivos binarios del software sean modificados y redistribuidos libremente favoreciendo la colaboración abierta.
+* [**Dominio público:**](https://es.wikipedia.org/wiki/Dominio_p%C3%BAblico) obras y aplicaciones informáticas  que no tienen derechos exclusivos de autor, pertenecen a todos.
+![img](img/licenses.png)
 
 
 ---
