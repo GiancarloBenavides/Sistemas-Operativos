@@ -24,7 +24,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 * GUI: [Gnome][1_3]
 * Framework: [GTK][1_4]
 
-![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
+![Arquitectura Linux](img/linux-kde.svg "Arquitectura Linux")
 
 [1_0]:https://en.wikipedia.org/wiki/Ubuntu
 [1_1]:https://en.wikipedia.org/wiki/Linux_kernel
