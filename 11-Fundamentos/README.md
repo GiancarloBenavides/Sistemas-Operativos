@@ -169,7 +169,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [314]:https://www.amazon.com/-/es/Abraham-Silberschatz/dp/1119800366
 
 
-## 3.2 Objetivos SO ✔
+## 3.2. Objetivos SO ✔
 * [__Comodidad:__][321] Funcionar como una interfaz entre el usuario y el hardware facilitando su aprovechamiento.
 * [__Eficiencia:__][322] Administrar los recursos físicos y lógicos del sistema informático de forma eficiente.
 * [__Capacidad de evolución:__][323] Permitir la introducción de nuevas características al sistema sin afectar la experiencia.
@@ -179,49 +179,56 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [323]:https://es.wikipedia.org/wiki/Escalabilidad
 
 
-## 3.3 Funciones SO ✔
+## 3.3. Algunas funciones de un SO ✔
 * Asignar recursos a los usuarios y programas.
 * Recuperar los recursos asignados y desocupados.
 * Permitir el dialogo interactivo de los usuarios con el sistema.
 * Asegurar la confidencialidad de la información.
 * Garantizar que los programas no interfieran entre sí.
 * Detectar y tratar errores.
-* Llevar historial de uso.
 
 
-## 3.4 Calidad SO ✔
-* Son aplicables los principios de la [calidad del software][341].
-* Modelo [ISO/IEC 25000][342].
+## 3.4. Algunos servicios proporcionados ✔
+* Creación de programas   
+* Ejecución de programas.
+* Acceso ordenado a los dispositivos de E/S.
+* Acceso controlado a los archivos.    
+* Contabilidad o historial de uso.   
+
+
+## 3.5. Calidad SO ✔
+* Son aplicables los principios de la [calidad del software][35_1].
+* Modelo [ISO/IEC 25000][35_2].
 
 ![mapa de procesos](img/software_quality.png "Calidad del Software")
 
-[341]:https://es.wikipedia.org/wiki/Calidad_de_software
-[342]:https://es.wikipedia.org/wiki/ISO/IEC_25000
+[35_1]:https://es.wikipedia.org/wiki/Calidad_de_software
+[35_2]:https://es.wikipedia.org/wiki/ISO/IEC_25000
 
 
-# 3.5. Ejemplos ✔
-* [__Unix:__][351] programado en C de los [laboratorios Bell][351_1].
-* [__Windows:__][352] programado en C, C++ de [Microsoft][352_1].
-* [__macOS:__][353] programado en C, Objetive-C de [Apple][353_1].
-* [__Ubuntu:__][354] programado en C, C++ de [Canonical][354_1].
-* [__Android:__][355] programado en C, Java de [Google][355_1].
-* [__FreeRTOS:__][356] programado en C de [AWS][356_1].
+# 3.6. Ejemplos ✔
+* [__Unix:__][36_1] programado en C de los [laboratorios Bell][361_1].
+* [__Windows:__][36_2] programado en C, C++ de [Microsoft][362_1].
+* [__macOS:__][36_3] programado en C, Objetive-C de [Apple][363_1].
+* [__Ubuntu:__][36_4] programado en C, C++ de [Canonical][364_1].
+* [__Android:__][36_5] programado en C, Java de [Google][365_1].
+* [__FreeRTOS:__][36_6] programado en C de [AWS][366_1].
 
 ![Ejemplos de sistemas operativos](img/os_examples.png "Ejemplos sistemas operativos")
 
-[351]:https://es.wikipedia.org/wiki/Unix
-[352]:https://es.wikipedia.org/wiki/Microsoft_Windows
-[353]:https://es.wikipedia.org/wiki/MacOS
-[354]:https://es.wikipedia.org/wiki/Ubuntu
-[355]:https://es.wikipedia.org/wiki/Android
-[356]:https://en.wikipedia.org/wiki/FreeRTOS
+[36_1]:https://es.wikipedia.org/wiki/Unix
+[36_2]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[36_3]:https://es.wikipedia.org/wiki/MacOS
+[36_4]:https://es.wikipedia.org/wiki/Ubuntu
+[36_5]:https://es.wikipedia.org/wiki/Android
+[36_6]:https://en.wikipedia.org/wiki/FreeRTOS
 
-[351_1]:https://es.wikipedia.org/wiki/Bell_Labs
-[352_1]:https://es.wikipedia.org/wiki/Microsoft_Windows
-[353_1]:https://es.wikipedia.org/wiki/Apple
-[354_1]:https://es.wikipedia.org/wiki/Canonical
-[355_1]:https://es.wikipedia.org/wiki/Google
-[356_1]:https://es.wikipedia.org/wiki/Amazon_Web_Services
+[361_1]:https://es.wikipedia.org/wiki/Bell_Labs
+[362_1]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[363_1]:https://es.wikipedia.org/wiki/Apple
+[364_1]:https://es.wikipedia.org/wiki/Canonical
+[365_1]:https://es.wikipedia.org/wiki/Google
+[366_1]:https://es.wikipedia.org/wiki/Amazon_Web_Services
 
 
 ---
