@@ -17,9 +17,10 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
     1. [Multi-tarea][21]
     1. [Almacenamiento][22]
     1. [Virtualización][23]
-1. [Tipos de sistemas Operativos][31]
-    1. [Clasificación][31]
-    1. [Ejemplos][32]
+1. [Clasificación de sistemas Operativos][31]
+    1. [Tipos][31]
+    1. [Variantes][32]
+    1. [Ejemplos][33]
 1. [Gestión de un sistema][41]
     1. [Procesos][41]
     1. [Memoria][42]
@@ -31,8 +32,9 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
 [21]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/21-Multitarea
 [22]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/22-Almacenamiento
 [23]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/23-Virtualizacion
-[31]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/31-Clasificacion
-[32]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/32-Ejemplos
+[31]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/31-Tipos
+[32]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/32-Variantes
+[33]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/33-Ejemplos
 [41]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/41-Procesos
 [42]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/42-Memoria
 [43]:https://github.com/GiancarloBenavides/Sistemas-Operativos/tree/main/43-Archivos
