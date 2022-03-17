@@ -17,8 +17,13 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 
 ---
 # 1. Núcleo de Linux
+* Version Estable: [5.16.15][1].
+* Tamaño: [122 MB][1].
+* 
 
 ![Estructura del núcleo Linux](img/linux-kernel.svg "Núcleo de Linux")
+
+[1]:https://www.kernel.org/
 
 # 2. Derivaciones
 * Versión: [Windows 11 21H2][2_0]
