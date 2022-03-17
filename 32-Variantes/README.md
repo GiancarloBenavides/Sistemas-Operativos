@@ -7,10 +7,10 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 
 
 ## Agenda
-1. [Núcleo Linux](#1-ubuntu-server).
-1. [Derivaciones](#1-ubuntu-server).
-1. [Versiones](#2-windows-10).
-1. [Distribuciones](#3-kde-neon).
+1. [Núcleo Linux](#1-núcleo-de-linux).
+1. [Derivaciones](#2-derivaciones).
+1. [Versiones](#3-versiones).
+1. [Distribuciones](#4-distribuciones).
 
 <br>
 
@@ -18,9 +18,9 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 ---
 # 1. Núcleo de Linux
 
+![Estructura del núcleo Linux](img/linux-kernel.svg "Núcleo de Linux")
 
-
-# 2. Windows 11
+# 2. Derivaciones
 * Versión: [Windows 11 21H2][2_0]
 * Núcleo: híbrido ([NT kernel][2_1])
 * API: [WinAPI][2_2]
@@ -36,7 +36,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 [2_4]:https://en.wikipedia.org/wiki/.NET_Framework
 
 
-# 3. KDE neon
+# 3. Versiones
 * Versión: [KDE neon 5.24][3_0]
 * Núcleo: monolítico ([Linux][3_1])
 * API: [Linux API][3_2]
@@ -52,7 +52,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 [3_4]:https://en.wikipedia.org/wiki/Qt_(software)#
 
 
-# 4. Ubuntu
+# 4. Distribuciones
 * Versión: [Jammy Jellyfish][4_0]
 * Núcleo: monolítico ([Linux][4_1])
 * API: [Linux API][4_2]
@@ -66,21 +66,6 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 [4_2]:https://en.wikipedia.org/wiki/Linux_kernel_interfaces
 [4_3]:https://en.wikipedia.org/wiki/GNOME
 [4_4]:https://en.wikipedia.org/wiki/GTK
-
-# 5. macOS
-* Versión: [Monterey 12.2][5_0]
-* Núcleo: híbrido ([XNU][5_1])
-* API: [SUS][5_2]
-* GUI: [Aqua][5_3]
-* Framework: [Cocoa][5_4]
-
-![Arquitectura macOS](img/macos.svg "Arquitectura macOS")
-
-[5_0]:https://en.wikipedia.org/wiki/MacOS_Monterey
-[5_1]:https://en.wikipedia.org/wiki/XNU
-[5_2]:https://en.wikipedia.org/wiki/Single_UNIX_Specification
-[5_3]:https://en.wikipedia.org/wiki/Aqua_(user_interface)#
-[5_4]:https://en.wikipedia.org/wiki/Cocoa_(API)#
 
 
 ---

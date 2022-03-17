@@ -183,7 +183,7 @@ Una licencia es un documento que otorga derechos extensivos para redistribuir, m
 * (CC BY-NC-SA)
 * (CC BY-NC-ND)
 
-![Creative Commons License](img/Creative_commons_license_spectrum.svg)
+![Creative Commons License](img/Creative_commons_license_spectrum.svg "Licenses CC")
 
 
 ---
