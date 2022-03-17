@@ -158,12 +158,32 @@ Un sistema puede restringir el modo protegido a pocos o muchos componentes y de 
 [32_2]:https://es.wikipedia.org/wiki/Unidad_central
 
 
-# 4 Clasificación por derechos de autor
+# 4. Clasificación por derechos de autor
 * [**Copyright:**](https://es.wikipedia.org/wiki/Derecho_de_autor) licencias de software que se reservan los derechos patrimoniales y otorgan derechos de utilización bajo distintos modelos comerciales.
 * [**Copyleft:**](https://es.wikipedia.org/wiki/Copyleft) licencias de software relacionadas con mantener libres los derechos patrimoniales y de utilización.
 * [**Código abierto:**](https://es.wikipedia.org/wiki/Licencia_de_c%C3%B3digo_abierto) licencias que permiten que tanto el código fuente como los archivos binarios del software sean modificados y redistribuidos libremente favoreciendo la colaboración abierta.
 * [**Dominio público:**](https://es.wikipedia.org/wiki/Dominio_p%C3%BAblico) obras y aplicaciones informáticas  que no tienen derechos exclusivos de autor, pertenecen a todos.
 ![img](img/licenses.png)
+
+
+# 4.1. Licencias de código abierto
+Una licencia es un documento que otorga derechos extensivos para redistribuir, modificar y/o comercializar una obra; algunos ejemplos de las licencias mas populares:
+
+* [APACHE](https://es.wikipedia.org/wiki/Apache_License)
+* [GPL](https://es.wikipedia.org/wiki/GNU_General_Public_License) y [LGPL](https://es.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
+* [MIT](https://es.wikipedia.org/wiki/Licencia_MIT)
+* [CC](https://en.wikipedia.org/wiki/Creative_Commons_license)
+
+
+# 4.2. Licencias CC
+* (CC BY)
+* (CC BY-SA)
+* (CC BY-ND)
+* (CC BY-NC)
+* (CC BY-NC-SA)
+* (CC BY-NC-ND)
+
+![Creative Commons License](img/Creative_commons_license_spectrum.svg)
 
 
 ---
