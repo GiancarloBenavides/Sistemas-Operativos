@@ -7,34 +7,57 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 
 
 ## Agenda
-1. [Núcleo Linux](#1-núcleo-de-linux).
-1. [Derivaciones](#2-derivaciones).
-1. [Versiones](#3-versiones).
+1. [Núcleo](#1-núcleo-de-linux).
+1. [Versiones](#2-versiones).
+1. [Derivaciones](#3-derivaciones).
 1. [Distribuciones](#4-distribuciones).
 
 <br>
 
 
 ---
-# 1. Núcleo de Linux
+# 1. Núcleo
+El [Kernel][1_0] es un programa de computadora en el núcleo del sistema operativo que se define como la parte que se ejecuta en modo privilegiado y tiene control completo sobre todo en el sistema.
+
+* ><i>"Si algo puede ser uno de los secretos del éxito de Google, eso es Linux."</i><br><cite style="display:block; text-align: right">
+[Serguéi Brin](https://es.wikipedia.org/wiki/Sergu%C3%A9i_Brin)</cite>
+
+[1_0]:https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)#
+
+
+## 1.1. Núcleo Linux ✔
 Linux es un clon del sistema operativo Unix, escrito desde cero por Linus Torvalds con la ayuda de un equipo de piratas informáticos de la red. Su objetivo es el cumplimiento de POSIX y Single UNIX Specification.
 
-* Version Estable: [5.16.15][1].
-* Tamaño: [122 MB][1].
-* Lineas de código: [32 M][1].
+* Version Estable: [5.16.15][11_0].
+* Tamaño: [122 MB][11_0].
+* Lineas de código: [32 M][11_0].
+
+[11_0]:https://www.kernel.org/
 
 
-## 1.1. Estructura monolítica de linux ✔
+## 1.2. Estructura monolítica de linux ✔
 ![Estructura del núcleo Linux](img/linux-kernel.svg "Núcleo de Linux")
 
-[1]:https://www.kernel.org/
 
-## 1.2. Caracteristicas ✔
+## 1.3. Caracteristicas ✔
 * Verdadera multi-tarea.
 * Memoria virtual.
 * Bibliotecas y ejecutables compartidas.
 * Carga a pedido.
 * Redes de múltiples pilas que incluyen IPv4 e IPv6
+
+
+## 1.4. Otros Núcleos ✔
+* [Match][14_1].
+* [GNU/Hurd][14_2].
+* [XNU][14_3].
+* [FreeRTOS][14_4].
+
+[14_1]:https://es.wikipedia.org/wiki/Mach_(n%C3%BAcleo)#
+[14_2]:https://es.wikipedia.org/wiki/GNU_Hurd
+[14_3]:https://en.wikipedia.org/wiki/XNU
+[14_4]:https://es.wikipedia.org/wiki/FreeRTOS
+
 
 # 2. Derivaciones
 En ingeniería de software se considera una [bifurcación][2_0] al desarrollo de un proyecto informático tomando como base un código fuente que ya existe.
@@ -46,28 +69,27 @@ En ingeniería de software se considera una [bifurcación][2_0] al desarrollo de
 
 
 ## 2.1. Derivaciones de Linux ✔
-* [__Linux-libre__][2].
-* [__webOS__][2].
-* [__Sailfish OS__][2].
+* [__Linux-libre__][21_1].
+* [__webOS__][21_2].
+* [__Sailfish OS__][21_3].
 
+[21_1]:https://es.wikipedia.org/wiki/Linux-libre
+[21_2]:https://es.wikipedia.org/wiki/WebOS
+[21_3]:https://es.wikipedia.org/wiki/Sailfish_OS
 
-[2]:https://es.wikipedia.org/wiki/Linux-libre
-[2]:https://es.wikipedia.org/wiki/Sailfish_OS
 
 # 3. Versiones
-* Versión: [KDE neon 5.24][3_0]
-* Núcleo: monolítico ([Linux][3_1])
-* API: [Linux API][3_2]
-* GUI: [Plasma 5][3_3]
-* Framework: [Qt][3_4]
+La versión de un software es un nombre, código o número único que sirve para indicar su nivel de desarrollo de la obra.
+
+es el proceso de asignación de , a un software para .
+
+
+## 3.1. Versiones de Linux
+Linus Torvalds con el apoyo de la comunidad continúa lanzando versiones “vanilla” del núcleo Linux; para ello usa una numeración de 4 dígitos
+A.B.C[.D]
 
 ![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
-[3_0]:https://en.wikipedia.org/wiki/KDE_neon
-[3_1]:https://en.wikipedia.org/wiki/Linux_kernel
-[3_2]:https://en.wikipedia.org/wiki/Linux_kernel_interfaces
-[3_3]:https://es.wikipedia.org/wiki/KDE_Plasma_5
-[3_4]:https://en.wikipedia.org/wiki/Qt_(software)#
 
 
 # 4. Distribuciones
