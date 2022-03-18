@@ -17,29 +17,42 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 
 ---
 # 1. Núcleo de Linux
+Linux es un clon del sistema operativo Unix, escrito desde cero por Linus Torvalds con la ayuda de un equipo de piratas informáticos de la red. Su objetivo es el cumplimiento de POSIX y Single UNIX Specification.
+
 * Version Estable: [5.16.15][1].
 * Tamaño: [122 MB][1].
-* 
+* Lineas de código: [32 M][1].
 
+
+## 1.1. Estructura monolítica de linux ✔
 ![Estructura del núcleo Linux](img/linux-kernel.svg "Núcleo de Linux")
 
 [1]:https://www.kernel.org/
 
+## 1.2. Caracteristicas ✔
+* Verdadera multi-tarea.
+* Memoria virtual.
+* Bibliotecas y ejecutables compartidas.
+* Carga a pedido.
+* Redes de múltiples pilas que incluyen IPv4 e IPv6
+
 # 2. Derivaciones
-* Versión: [Windows 11 21H2][2_0]
-* Núcleo: híbrido ([NT kernel][2_1])
-* API: [WinAPI][2_2]
-* GUI: [Windows shell][2_3]
-* Framework: [.NET][2_4]
+En ingeniería de software se considera una [bifurcación][2_0] al desarrollo de un proyecto informático tomando como base un código fuente que ya existe.
 
-![Arquitectura Windows 11](img/linux.svg "Arquitectura Windows 11")
+* ><i>"A todas las mejores personas en la vida, parece gustarles Linux."</i><br><cite style="display:block; text-align: right">
+[Steve Wozniak](https://es.wikipedia.org/wiki/Steve_Wozniak)</cite>
 
-[2_0]:https://en.wikipedia.org/wiki/Windows_11
-[2_1]:https://en.wikipedia.org/wiki/Architecture_of_Windows_NT
-[2_2]:https://en.wikipedia.org/wiki/Windows_API
-[2_3]:https://en.wikipedia.org/wiki/Windows_shell
-[2_4]:https://en.wikipedia.org/wiki/.NET_Framework
+[2_0]:https://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)#
 
+
+## 2.1. Derivaciones de Linux ✔
+* [__Linux-libre__][2].
+* [__webOS__][2].
+* [__Sailfish OS__][2].
+
+
+[2]:https://es.wikipedia.org/wiki/Linux-libre
+[2]:https://es.wikipedia.org/wiki/Sailfish_OS
 
 # 3. Versiones
 * Versión: [KDE neon 5.24][3_0]
