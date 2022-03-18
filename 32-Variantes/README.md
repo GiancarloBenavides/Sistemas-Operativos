@@ -19,8 +19,8 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 # 1. Núcleo
 El [Kernel][1_0] es un programa de computadora en el núcleo del sistema operativo que se define como la parte que se ejecuta en modo privilegiado y tiene control completo sobre todo en el sistema.
 
-* ><i>"Si algo puede ser uno de los secretos del éxito de Google, eso es Linux."</i><br><cite style="display:block; text-align: right">
-[Serguéi Brin](https://es.wikipedia.org/wiki/Sergu%C3%A9i_Brin)</cite>
+* ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right">
+[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 [1_0]:https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)#
 
@@ -71,7 +71,8 @@ La [versión][2_0] de un software es un nombre, código o número único que sir
 ## 2.1. Control de versiones ✔
 * Para la gestión de cambios se existen sistemas de control de versiones o [**VCS**][21_1].
 * Linus Torvalds diseño un VSC para gestionar el código de Linux llamado [**GIT**][21_2].
-* Existen servicios de alojamiento de código como [**GitHub**][21_3] que integran GIT y facilitan esta gestión de código y el desarrollo colaborativo.
+* Existen servicios de alojamiento de código en la nube como [**GitHub**][21_3].
+* Estos servicios integran GIT y otras herramientas que facilitan el desarrollo colaborativo.
 
 [21_1]:https://es.wikipedia.org/wiki/Control_de_versiones
 [21_2]:https://es.wikipedia.org/wiki/Git
@@ -90,54 +91,45 @@ Linus Torvalds con el apoyo de la comunidad continúa lanzando versiones “vani
 
 
 ## 2.3. Sufijos alfanumérico ✔
-* [__a:__][22_0] Alfa
-* [__b:__][22_0] Beta
-* [__rc:__][22_0] Candidato de lanzamiento
+* [__a:__][23_0] Alfa
+* [__b:__][23_0] Beta
+* [__rc:__][23_0] Candidato de lanzamiento
 
-
+[23_0]:https://en.wikipedia.org/wiki/Software_versioning
 
 
 # 3. Derivaciones
-En ingeniería de software se considera una [bifurcación][2_0] al desarrollo de un proyecto informático tomando como base un código fuente que ya existe.
+En ingeniería de software se considera una [bifurcación][3_0] al desarrollo de un proyecto informático tomando como base un código fuente que ya existe.
 
 * ><i>"A todas las mejores personas en la vida, parece gustarles Linux."</i><br><cite style="display:block; text-align: right">
 [Steve Wozniak](https://es.wikipedia.org/wiki/Steve_Wozniak)</cite>
 
-[2_0]:https://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)#
+[3_0]:https://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)#
 
 
-## 2.1. Derivaciones de Linux ✔
-* [__Linux-libre__][21_1].
-* [__webOS__][21_2].
-* [__Sailfish OS__][21_3].
+## 3.1. Derivaciones de Linux ✔
+* [__Linux-libre__][31_1].
+* [__webOS__][31_2].
+* [__Sailfish OS__][31_3].
 
-[21_1]:https://es.wikipedia.org/wiki/Linux-libre
-[21_2]:https://es.wikipedia.org/wiki/WebOS
-[21_3]:https://es.wikipedia.org/wiki/Sailfish_OS
-
-
-
-
-
-
+[31_1]:https://es.wikipedia.org/wiki/Linux-libre
+[31_2]:https://es.wikipedia.org/wiki/WebOS
+[31_3]:https://es.wikipedia.org/wiki/Sailfish_OS
 
 
 # 4. Distribuciones
-* Versión: [Jammy Jellyfish][4_0]
-* Núcleo: monolítico ([Linux][4_1])
-* API: [Linux API][4_2]
-* GUI: [Gnome][4_3]
-* Framework: [GTK][4_4]
+Una [distribución][4_0] Linux es una colección de software basada en el núcleo Linux y herramientas de software o bibliotecas en paquetes de software que pretende satisfacer las necesidades de un grupo específico de usuarios.
+
+* ><i>"Microsoft ama a Linux."</i><br><cite style="display:block; text-align: right">
+[Satya Nadella](https://es.wikipedia.org/wiki/Satya_Nadella)</cite>
+
+[4_0]:https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux
+
+
+## 4.1. Arquitectura distribuciones de Linux ✔
 
 ![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
-[4_0]:https://en.wikipedia.org/wiki/Ubuntu
-[4_1]:https://en.wikipedia.org/wiki/Linux_kernel
-[4_2]:https://en.wikipedia.org/wiki/Linux_kernel_interfaces
-[4_3]:https://en.wikipedia.org/wiki/GNOME
-[4_4]:https://en.wikipedia.org/wiki/GTK
-
-![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
 ---
 ## Mas Recursos
