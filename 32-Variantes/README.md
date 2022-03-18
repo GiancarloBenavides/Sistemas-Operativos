@@ -59,7 +59,45 @@ Linux es un clon del sistema operativo Unix, escrito desde cero por Linus Torval
 [14_4]:https://es.wikipedia.org/wiki/FreeRTOS
 
 
-# 2. Derivaciones
+# 2. Versiones
+La [versión][2_0] de un software es un nombre, código o número único que sirve para indicar el nivel de desarrollo de la obra.
+
+* ><i>"Si algo puede ser uno de los secretos del éxito de Google, eso es Linux."</i><br><cite style="display:block; text-align: right">
+[Serguéi Brin](https://es.wikipedia.org/wiki/Sergu%C3%A9i_Brin)</cite>
+
+[2_0]:https://es.wikipedia.org/wiki/Versionado_de_software
+
+
+## 2.1. Control de versiones ✔
+* Para la gestión de cambios se existen sistemas de control de versiones o [**VCS**][21_1].
+* Linus Torvalds diseño un VSC para gestionar el código de Linux llamado [**GIT**][21_2].
+* Existen servicios de alojamiento de código como [**GitHub**][21_3] que integran GIT y facilitan esta gestión de código y el desarrollo colaborativo.
+
+[21_1]:https://es.wikipedia.org/wiki/Control_de_versiones
+[21_2]:https://es.wikipedia.org/wiki/Git
+[21_3]:https://es.wikipedia.org/wiki/GitHub
+
+
+## 2.2. Versiones de Linux ✔
+Linus Torvalds con el apoyo de la comunidad continúa lanzando versiones “vanilla” del núcleo Linux; para ello usa una numeración de 4 dígitos [A.B.C[.D]][22_0].
+
+* [__A:__][22_0]  versión mayor del núcleo.
+* [__B:__][22_0]  versión menor del núcleo.
+* [__C:__][22_0]  revision de controladores.
+* [__D:__][22_0]  parches de seguridad. 
+
+[22_0]:https://es.wikipedia.org/wiki/N%C3%BAcleo_Linux#Versiones
+
+
+## 2.3. Sufijos alfanumérico ✔
+* [__a:__][22_0] Alfa
+* [__b:__][22_0] Beta
+* [__rc:__][22_0] Candidato de lanzamiento
+
+
+
+
+# 3. Derivaciones
 En ingeniería de software se considera una [bifurcación][2_0] al desarrollo de un proyecto informático tomando como base un código fuente que ya existe.
 
 * ><i>"A todas las mejores personas en la vida, parece gustarles Linux."</i><br><cite style="display:block; text-align: right">
@@ -78,17 +116,9 @@ En ingeniería de software se considera una [bifurcación][2_0] al desarrollo de
 [21_3]:https://es.wikipedia.org/wiki/Sailfish_OS
 
 
-# 3. Versiones
-La versión de un software es un nombre, código o número único que sirve para indicar su nivel de desarrollo de la obra.
-
-es el proceso de asignación de , a un software para .
 
 
-## 3.1. Versiones de Linux
-Linus Torvalds con el apoyo de la comunidad continúa lanzando versiones “vanilla” del núcleo Linux; para ello usa una numeración de 4 dígitos
-A.B.C[.D]
 
-![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
 
 
@@ -107,6 +137,7 @@ A.B.C[.D]
 [4_3]:https://en.wikipedia.org/wiki/GNOME
 [4_4]:https://en.wikipedia.org/wiki/GTK
 
+![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
 ---
 ## Mas Recursos
