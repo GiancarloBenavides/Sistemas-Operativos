@@ -109,16 +109,21 @@ En ingeniería de software se considera una [bifurcación][3_0] al desarrollo de
 
 ## 3.1. Derivaciones de Linux ✔
 * [__Linux-libre__][31_1].
-* [__webOS__][31_2].
-* [__Android__][31_3].
-* [__Tizen__][31_4].
-* [__Sailfish OS__][31_5].
+* [__RTLinux__][31_2].
+* [__L4Linux__][31_3].
+* [__webOS__][31_4].
+* [__Android__][31_5].
+* [__Tizen__][31_6].
+* [__Sailfish OS__][31_7].
+
 
 [31_1]:https://es.wikipedia.org/wiki/Linux-libre
-[31_2]:https://es.wikipedia.org/wiki/WebOS
-[31_3]:https://es.wikipedia.org/wiki/Android
-[31_4]:https://es.wikipedia.org/wiki/Tizen
-[31_5]:https://es.wikipedia.org/wiki/Sailfish_OS
+[31_2]:https://es.wikipedia.org/wiki/RTLinux
+[31_3]:https://en.wikipedia.org/wiki/L4Linux
+[31_4]:https://es.wikipedia.org/wiki/WebOS
+[31_5]:https://es.wikipedia.org/wiki/Android
+[31_6]:https://es.wikipedia.org/wiki/Tizen
+[31_7]:https://es.wikipedia.org/wiki/Sailfish_OS
 
 
 # 4. Distribuciones
@@ -131,12 +136,32 @@ Una [distribución][4_0] Linux es una colección de software basada en el núcle
 
 
 ## 4.1. Distribuciones de Linux ✔
-* [Ubuntu Desktop][41_1].
-* [Kde neon][41_2].
-* [Kde neon][41_2].
+* [__Debian__][41_1]: Gnome3 - Kde - Cinnamon - Lxde - Lxqt - mate - xfce.
+* [__Ubuntu Desktop__][41_2]: Gnome3 - Kde - Budgie - Lxqt - mate - xfce.
+* [__Mint__][41_3]: Cinnamon - mate - xfce.
+* [__Kde neon__][41_4]: Kde.
+* [__elementary OS__][41_5]: Pantheon.
+* [__Pop!\_OS__][41_6]: Cosmic.
+* [__Deepin__][41_7]: DDE.
 
-[41_1]:https://ubuntu.com/download
-[41_2]:https://neon.kde.org/download
+[41_1]:https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/amd64/iso-hybrid/
+[41_2]:https://ubuntu.com/download
+[41_3]:https://linuxmint.com/download_all.php
+[41_4]:https://neon.kde.org/download
+[41_5]:https://elementary.io/es/
+[41_6]:https://pop.system76.com/
+[41_7]:https://www.deepin.org/en/download/
+
+
+
+## 4.2. Distribuciones de otros kernels ✔
+* [__Debian GNU/Hurd__][42_1]: Kernel Hurd.
+* [__Debian GNU/kFreeBSD__][42_2] Kernel BSD.
+* [__Openindiana__][42_3]: Kernel Illumos.
+
+[42_1]:https://www.debian.org/ports/hurd/index.es.html
+[42_2]:https://www.debian.org/ports/kfreebsd-gnu/index.es.html
+[42_3]:https://www.openindiana.org/download/
 
 
 ## 4.2. Arquitectura distribuciones de Linux ✔
