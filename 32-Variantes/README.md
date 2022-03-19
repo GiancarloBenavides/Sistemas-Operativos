@@ -110,11 +110,15 @@ En ingeniería de software se considera una [bifurcación][3_0] al desarrollo de
 ## 3.1. Derivaciones de Linux ✔
 * [__Linux-libre__][31_1].
 * [__webOS__][31_2].
-* [__Sailfish OS__][31_3].
+* [__Android__][31_3].
+* [__Tizen__][31_4].
+* [__Sailfish OS__][31_5].
 
 [31_1]:https://es.wikipedia.org/wiki/Linux-libre
 [31_2]:https://es.wikipedia.org/wiki/WebOS
-[31_3]:https://es.wikipedia.org/wiki/Sailfish_OS
+[31_3]:https://es.wikipedia.org/wiki/Android
+[31_4]:https://es.wikipedia.org/wiki/Tizen
+[31_5]:https://es.wikipedia.org/wiki/Sailfish_OS
 
 
 # 4. Distribuciones
@@ -126,14 +130,20 @@ Una [distribución][4_0] Linux es una colección de software basada en el núcle
 [4_0]:https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux
 
 
-## 4.1. Arquitectura distribuciones de Linux ✔
+## 4.1. Distribuciones de Linux ✔
+* [Ubuntu Desktop][41_1].
+* [Kde neon][41_2].
+* [Kde neon][41_2].
+
+[41_1]:https://ubuntu.com/download
+[41_2]:https://neon.kde.org/download
+
+
+## 4.2. Arquitectura distribuciones de Linux ✔
 
 ![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
 
 ---
 ## Mas Recursos
-- [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
-- [Micro-kernel o Monolitivo ](https://www.xataka.com/historia-tecnologica/linux-esta-obsoleto-historia-detras-declaracion-que-provoco-debate-apasionante-acerca-este-sistema-operativo-1) (XATAKA)
-- [Computadoras paralelas](https://es.wikipedia.org/wiki/Computaci%C3%B3n_paralela#Clases_de_computadoras_paralelas) (Wikipedia)
-- [Concurrencia](https://es.wikipedia.org/wiki/Concurrencia_(inform%C3%A1tica)) (Wikipedia)
+- [Linux From Scratch](https://es.wikipedia.org/wiki/Linux_From_Scratch) (Wikipedia)
