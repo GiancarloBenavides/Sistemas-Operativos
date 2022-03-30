@@ -26,14 +26,16 @@ El [Kernel][1_0] es un programa de computadora en el núcleo del sistema operati
 
 
 ## 1.1. Núcleo Linux ✔
-Linux es un clon del sistema operativo Unix, escrito desde cero por Linus Torvalds con la ayuda de un equipo de piratas informáticos de la red. Su objetivo es el cumplimiento de POSIX y Single UNIX Specification.
+Linux es un clon del sistema operativo Unix escrito, desde cero, por Linus Torvalds con la ayuda de un equipo de piratas informáticos de la red con el objetivo es el cumplimiento de POSIX y Single UNIX Specification.
 
 * Version Estable: [5.16.15][11_0].
 * Tamaño: [122 MB][11_0].
 * Lineas de código: [32 M][11_0].
+* Licencia [GPL v2][11_1]
 
 [11_0]:https://www.kernel.org/
-[11_1]:https://en.wikipedia.org/wiki/Linux_kernel
+[11_1]:https://es.wikipedia.org/wiki/GNU_General_Public_License
+[11_2]:https://en.wikipedia.org/wiki/Linux_kernel
 
 ## 1.2. Estructura monolítica de linux ✔
 * [__Scheduler:__][12_1] Planificador de tareas.
@@ -51,7 +53,7 @@ Linux es un clon del sistema operativo Unix, escrito desde cero por Linus Torval
 [12_5]:https://en.wikipedia.org/wiki/Network_scheduler
 
 
-## 1.3. Caracteristicas ✔
+## 1.3. Caracteristicas Linux ✔
 * Verdadera multi-tarea.
 * Memoria virtual.
 * Bibliotecas y ejecutables compartidas.
@@ -183,3 +185,7 @@ Una [distribución][4_0] Linux es una colección de software basada en el núcle
 ---
 ## Mas Recursos
 - [Linux From Scratch](https://es.wikipedia.org/wiki/Linux_From_Scratch) (Wikipedia)
+- [Modularidad Linux](https://es.wikipedia.org/wiki/Portabilidad_del_n%C3%BAcleo_Linux_y_arquitecturas_soportadas) (Wikipedia)
+- [GNU GRUB](https://es.wikipedia.org/wiki/GNU_GRUB) (Wikipedia)
+- [Btrfs](https://es.wikipedia.org/wiki/Btrfs) (Wikipedia)
+- [ext4](https://es.wikipedia.org/wiki/Ext4) (Wikipedia)
