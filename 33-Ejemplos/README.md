@@ -24,9 +24,8 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 * GUI: [Gnome][1_3]
 * Framework: [GTK][1_4]
 
-![Arquitectura Linux](img/linux-server.svg "Arquitectura Linux")
 <p align="center">
-<img src="img/linux-server.svg" alt="drawing" width="70%"/>
+    <img src="img/linux-server.svg" title="Arquitectura Linux" alt="Arquitectura Linux" width="70%"/>
 </p>
 
 [1_0]:https://en.wikipedia.org/wiki/Ubuntu
@@ -43,7 +42,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 * GUI: [Windows shell][2_3]
 * Framework: [.NET][2_4]
 
-![Arquitectura Windows 11](img/windows_development_stack.png "Arquitectura Windows 11")
+![Arquitectura Windows 11](img/windows_development_stack.png "Arquitectura Windows 11"){width=10%}
 
 [2_0]:https://en.wikipedia.org/wiki/Windows_11
 [2_1]:https://en.wikipedia.org/wiki/Architecture_of_Windows_NT
@@ -59,7 +58,9 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 * GUI: [Plasma 5][3_3]
 * Framework: [Qt][3_4]
 
-![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
+<p align="center">
+    <img src="img/linux-kde.svg" title="Arquitectura KDE" alt="Arquitectura KDE" width="70%"/>
+</p>
 
 [3_0]:https://en.wikipedia.org/wiki/KDE_neon
 [3_1]:https://en.wikipedia.org/wiki/Linux_kernel
@@ -75,7 +76,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 * GUI: [Gnome][4_3]
 * Framework: [GTK][4_4]
 
-![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
+![Arquitectura Linux](img/linux.svg "Arquitectura GNOME")
 
 [4_0]:https://en.wikipedia.org/wiki/Ubuntu
 [4_1]:https://en.wikipedia.org/wiki/Linux_kernel
