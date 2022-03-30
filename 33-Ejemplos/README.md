@@ -76,6 +76,10 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 * GUI: [Gnome][4_3]
 * Framework: [GTK][4_4]
 
+<p align="center">
+    <img src="img/linux-gnome.svg" title="Arquitectura KDE" alt="Arquitectura KDE" width="70%"/>
+</p>
+
 ![Arquitectura Linux](img/linux.svg "Arquitectura GNOME")
 
 [4_0]:https://en.wikipedia.org/wiki/Ubuntu
@@ -102,7 +106,7 @@ Un SO es un conjunto de programas destinados a permitir la comunicación del usu
 
 ---
 ## Mas Recursos
-- [Debate Tanenbaum–Torvalds](https://es.wikipedia.org/wiki/Debate_Tanenbaum%E2%80%93Torvalds) (Wikipedia)
-- [Micro-kernel o Monolitivo ](https://www.xataka.com/historia-tecnologica/linux-esta-obsoleto-historia-detras-declaracion-que-provoco-debate-apasionante-acerca-este-sistema-operativo-1) (XATAKA)
-- [Computadoras paralelas](https://es.wikipedia.org/wiki/Computaci%C3%B3n_paralela#Clases_de_computadoras_paralelas) (Wikipedia)
-- [Concurrencia](https://es.wikipedia.org/wiki/Concurrencia_(inform%C3%A1tica)) (Wikipedia)
+- [Proyecto GNOME](https://es.wikipedia.org/wiki/Proyecto_GNOME) (Wikipedia)
+- [Proyecto KDE](https://es.wikipedia.org/wiki/KDE) (Wikipedia)
+- [GLib](https://es.wikipedia.org/wiki/GLib) (Wikipedia)
+- [glibc](https://es.wikipedia.org/wiki/Glibc) (Wikipedia)

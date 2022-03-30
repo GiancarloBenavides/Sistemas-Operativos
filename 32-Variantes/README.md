@@ -169,7 +169,7 @@ Una [distribución][4_0] Linux es una colección de software basada en el núcle
 
 ## 4.2. Distribuciones con otros kernels ✔
 * [__Debian GNU/Hurd__][42_1]: Kernel Hurd.
-* [__Debian GNU/kFreeBSD__][42_2] Kernel BSD.
+* [__Debian GNU/kFreeBSD__][42_2]: Kernel BSD.
 * [__Openindiana__][42_3]: Kernel Illumos.
 
 [42_1]:https://www.debian.org/ports/hurd/index.es.html
@@ -177,7 +177,17 @@ Una [distribución][4_0] Linux es una colección de software basada en el núcle
 [42_3]:https://www.openindiana.org/download/
 
 
-## 4.2. Arquitectura distribuciones de Linux ✔
+## 4.3. biblioteca estándar de C  ✔
+* [__Glibc__][43_1]: biblioteca de C de GNU.
+* [__uClibc__][43_2]: biblioteca en C para sistemas embebidos.
+* [__Bionic__][43_3]: biblioteca de C de android.
+
+[43_1]:https://www.debian.org/ports/hurd/index.es.html
+[43_2]:https://www.debian.org/ports/kfreebsd-gnu/index.es.html
+[43_3]:https://es.wikipedia.org/wiki/Bionic_(software)#
+
+
+## 4.4. Arquitectura distribuciones basadas en Linux ✔
 
 ![Arquitectura Linux](img/linux.svg "Arquitectura Linux")
 
