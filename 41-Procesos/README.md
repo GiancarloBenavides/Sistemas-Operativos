@@ -10,6 +10,7 @@ La gestión consiste en que el sistema operativo asume responsabilidades sobre l
 1. [Los modos de procesamiento](#2-los-modos-de-procesamiento).
 1. [El contexto](#3-el-contexto).
 1. [La comunicación entre procesos](#4-la-comunicación-entre-procesos).
+1. [El planificador](#5-el-planificador).
 
 <br>
 
@@ -36,6 +37,16 @@ Un [procesos][1_0] en es una tarea en ejecución del sistema operativo que se ca
 [11_3]:https://en.wikipedia.org/wiki/Context_(computing)#
 [11_4]:https://es.wikipedia.org/wiki/Hilo_(inform%C3%A1tica)#
 [11_5]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_concurrente
+
+
+## 1.2. Tipos ✔
+* [__CPU-bound__][12_1]: Los procesos que contienen un alto uso de procesador 
+son llamados CPU-bound o compute-bound.
+* [__I/O-bound__][12_2]: Los procesos que realizan muchos accesos a 
+operaciones de E/S son llamados I/O-bound.
+
+[12_1]:https://en.wikipedia.org/wiki/CPU-bound
+[12_2]:https://en.wikipedia.org/wiki/I/O_bound
 
 
 ## 1.2. Estados de ejecución ✔
@@ -93,21 +104,41 @@ Los [modos de procesamiento][2_0] son los modos de operación de las CPU de algu
 
 
 ## 3.1. Bloque descriptor de proceso ✔
-* Un proceso es representado a través del [PCB][31_1].
-* Estructura de datos que será el operando de las operaciones del [Planificador][31_2].
-
+* Un proceso esta representado por el [PCB][31_1].
+* El PCB es una estructura de datos formada por campos.
+* Esta estructura será el operando de las operaciones del [Planificador][31_2].
+* Los campos incluyen la 
 
 [31_1]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
 [31_2]:https://es.wikipedia.org/wiki/Planificador
 
 
-## 3.2. El contador de programa ✔
-* Cada proceso tiene su [PC][12_1] o program counter.
+## 3.2. La estructura del PCB ✔
+
+| Identificador de proceso |
+|:---|
+| __Estado del proceso__ |
+| __Context CPU__ | 
+|   _Contador de programa_ |
+|   _Registros_ |
+| __Limites de memoria__ |
+| __Lista de archivos abiertos__ |
+
+
+## 3.3. La estructura del PCB ✔
+
+<p align="center">
+    <img src="img/" title="Arquitectura KDE" alt="Arquitectura KDE" width="70%"/>
+</p>
+
+
+## 3.3. El contador de programa ✔
+* Cada proceso tiene su [PC][33_1] o program counter.
 * Se incrementa cuando el proceso esta corriendo.
 * El contexto de la CPU esta formado por el PC y otros registros.
 * Un proceso incluye las variables.
 
-[12_1]:https://es.wikipedia.org/wiki/Contador_de_programa
+[33_1]:https://es.wikipedia.org/wiki/Contador_de_programa
 
 
 Cambio de contexto
