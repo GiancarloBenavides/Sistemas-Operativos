@@ -33,10 +33,22 @@ Linux es un clon del sistema operativo Unix, escrito desde cero por Linus Torval
 * Lineas de código: [32 M][11_0].
 
 [11_0]:https://www.kernel.org/
-
+[11_1]:https://en.wikipedia.org/wiki/Linux_kernel
 
 ## 1.2. Estructura monolítica de linux ✔
+* [__Scheduler:__][12_1] Planificador de tareas.
+* [__MM__][12_2]: Gestión de memoria.
+* [__IPC__][12_3]: Comunicación entre procesos.
+* [__VFS__][12_4]: Sistema de archivos virtual.
+* [__VFS__][12_5]: Pila de red.
+
 ![Estructura del núcleo Linux](img/linux-kernel.svg "Núcleo de Linux")
+
+[12_1]:https://es.wikipedia.org/wiki/Planificador
+[12_2]: https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria
+[12_3]:https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos
+[12_4]:https://es.wikipedia.org/wiki/Sistema_de_archivos_virtual
+[12_5]:https://en.wikipedia.org/wiki/Network_scheduler
 
 
 ## 1.3. Caracteristicas ✔
