@@ -136,6 +136,7 @@ Cada sistema operativo tiene su propio diseño de BCP, pero usualmente puede con
 | Estadísticas del proceso |
 | ... |
 
+
 ## 3.3. Diagrama del PCB ✔
 
 ![Bloque de control de procesos](img/process_control_block.svg "Campos de la estructura")
@@ -147,11 +148,11 @@ Cada sistema operativo tiene su propio diseño de BCP, pero usualmente puede con
 * Cada proceso tiene su [PC][34_1] o program counter.
 * El PC se incrementa cuando el proceso esta corriendo.
 
-
 [34_1]:https://es.wikipedia.org/wiki/Contador_de_programa
 
 
 ## 3.5. Cambio de contexto ✔
+
 
 
 ---
