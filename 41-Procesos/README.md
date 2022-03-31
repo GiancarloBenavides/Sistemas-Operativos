@@ -61,7 +61,7 @@ operaciones de E/S son llamados I/O-bound.
 ## 1.4. Transición de estados ✔
 * [__Dispatch__][14_1] o Listo a ejecutando.
 * [__Interrupt__][14_1] o Ejecutando a listo.
-* [__Swap__][14_1] o intercambiar Suspendido.
+* [__Swap__][14_1] o intercambiar a o desde suspendido.
 
 [14_1]:https://en.wikipedia.org/wiki/Process_state
 
@@ -152,7 +152,7 @@ Cada sistema operativo tiene su propio diseño de BCP, pero usualmente puede con
 
 
 ## 3.5. Cambio de contexto ✔
-
+jj
 
 
 ---
