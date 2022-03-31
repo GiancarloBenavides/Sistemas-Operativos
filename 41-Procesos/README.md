@@ -103,12 +103,12 @@ Los [modos de procesamiento][2_0] son los modos de operación de las CPU de algu
 
 
 # 3. El contexto
-El [contexto][2_0] de la CPU esta formado por los valores almacenados en sus registros, incluyendo el contador de programa, los registros de estado y los registros de propósito general.
+El [contexto][3_0] de la CPU esta formado por los valores almacenados en sus registros, incluyendo el contador de programa, los registros de estado y los registros de propósito general.
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
-[2_0]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+[3_0]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
 
 
 ## 3.1. Bloque descriptor de proceso ✔
@@ -152,7 +152,62 @@ Cada sistema operativo tiene su propio diseño de BCP, pero usualmente puede con
 
 
 ## 3.5. Cambio de contexto ✔
-jj
+* Se llama asi a la tarea de cambiar un proceso por otro en el procesador.
+* Sirve para aprovechar los tiempos muertos del procesador.
+* Sirve para ejecutar mas de un proceso o concurrencia.
+
+
+## 3.6. Pasos para el cambio de contexto ✔
+1. Salvar el estado del proceso actual en el PCB.
+1. Cambiar el estado del proceso que estaba ejecutando al que corresponda.
+1. Seleccionar otro programa para ejecutar.
+1. Cargar el estado del proceso asignado a la CPU a partir de su PCB.
+1. Cambiar el estado del proceso nuevo a corriendo.
+1. Ejecutar el programa seleccionado
+
+
+# 4. La comunicación entre procesos
+El [IPC][4_0] es una función básica de los sistemas operativos que permite a los procesos comunicarse entre sí a través de mensajes o espacios de memoria compartida.
+
+* ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
+<cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
+
+[4_0]:https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos
+
+
+## 4.1. Tipos de comunicación ✔
+* La comunicación puede ser directa o indirecta.
+* La comunicación puede ser sincrónica o asíncrona.
+* La comunicación puede ser persistente o momentánea.
+* La comunicación puede ser bidireccional o unidireccional.
+
+
+## 4.2. Enfoques ✔
+* [__Memoria compartida__][42_1]: típico de núcleos monolíticos.
+* [__Pasaje de mensajes__][42_1]: típico de micro-núcleos.
+
+[42_1]:https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos
+
+
+## 4.3. Tubería ✔
+* Consiste en una [cadena de procesos][43_1] conectados en serie.
+* La salida de cada elemento de la cadena es la entrada del próximo.
+* Permiten la comunicación sincrónica entre procesos.
+* Es común el uso de buffer de datos entre elementos consecutivos.
+
+[43_1]:https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)
+
+
+# 5. El planificador
+El [contexto][5_0] de la CPU esta formado por los valores almacenados en sus registros, incluyendo el contador de programa, los registros de estado y los registros de propósito general.
+
+* ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
+<cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
+
+[5_0]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+
+
+
 
 
 ---
