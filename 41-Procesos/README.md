@@ -49,16 +49,24 @@ operaciones de E/S son llamados I/O-bound.
 [12_2]:https://en.wikipedia.org/wiki/I/O_bound
 
 
-## 1.2. Estados de ejecución ✔
-* [__Ready__][12_1] o Listo.
-* [__Running__][12_1] o Corriendo.
-* [__Blocked__][12_1] o Bloqueado.
-* [__Swapped__][12_1] o Suspendido.
+## 1.3. Estados de ejecución ✔
+* [__Ready__][13_1] o Listo.
+* [__Running__][13_1] o Corriendo.
+* [__Blocked__][13_1] o Bloqueado.
+* [__Suspended__][13_1] o Suspendido.
 
-[12_1]:https://en.wikipedia.org/wiki/Process_state
+[13_1]:https://en.wikipedia.org/wiki/Process_state
 
 
-## 1.3. Diagrama de estados ✔
+## 1.4. Transición de estados ✔
+* [__Dispatch__][14_1] o Listo a ejecutando.
+* [__Interrupt__][14_1] o Ejecutando a listo.
+* [__Swap__][14_1] o intercambiar Suspendido.
+
+[14_1]:https://en.wikipedia.org/wiki/Process_state
+
+
+## 1.5. Diagrama de estados ✔
 
 ![diagrama de estado](../22-Almacenamiento/img/process_state_secondary.svg "Estados de una tarea")
 
@@ -95,7 +103,7 @@ Los [modos de procesamiento][2_0] son los modos de operación de las CPU de algu
 
 
 # 3. El contexto
-Los [modos de procesamiento][2_0] son los modos de operación de las CPU de algunas arquitecturas, que establecen ciertas restricciones sobre el tipo y ámbito de las operaciones que pueden llevar a cabo ciertos procesos cuando se encuentran corriendo.
+El [contexto][2_0] de la CPU esta formado por los valores almacenados en sus registros, incluyendo el contador de programa, los registros de estado y los registros de propósito general.
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
@@ -107,41 +115,44 @@ Los [modos de procesamiento][2_0] son los modos de operación de las CPU de algu
 * Un proceso esta representado por el [PCB][31_1].
 * El PCB es una estructura de datos formada por campos.
 * Esta estructura será el operando de las operaciones del [Planificador][31_2].
-* Los campos incluyen la 
+* El PCB se mantiene en un área de la memoria protegida.
+* Puede ocupar desde 32 hasta 1024 bits.
 
 [31_1]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
 [31_2]:https://es.wikipedia.org/wiki/Planificador
 
 
 ## 3.2. La estructura del PCB ✔
+Cada sistema operativo tiene su propio diseño de BCP, pero usualmente puede contener:
 
 | Identificador de proceso |
-|:---|
-| __Estado del proceso__ |
-| __Context CPU__ | 
-|   _Contador de programa_ |
-|   _Registros_ |
-| __Limites de memoria__ |
-| __Lista de archivos abiertos__ |
+| :---: |
+| Estado del proceso |
+| Datos del propietario |
+| Prioridad del proceso |
+| Contexto de la CPU | 
+| Espacio de direcciones |
+| Lista de recursos asignados |
+| Estadísticas del proceso |
+| ... |
+
+## 3.3. Diagrama del PCB ✔
+
+![Bloque de control de procesos](img/process_control_block.svg "Campos de la estructura")
 
 
-## 3.3. La estructura del PCB ✔
-
-<p align="center">
-    <img src="img/" title="Arquitectura KDE" alt="Arquitectura KDE" width="70%"/>
-</p>
-
-
-## 3.3. El contador de programa ✔
-* Cada proceso tiene su [PC][33_1] o program counter.
-* Se incrementa cuando el proceso esta corriendo.
-* El contexto de la CPU esta formado por el PC y otros registros.
-* Un proceso incluye las variables.
-
-[33_1]:https://es.wikipedia.org/wiki/Contador_de_programa
+## 3.4. El contador de programa ✔
+* Es un registro especial de la CPU.
+* Apunta a la dirección de la proxima instrucción a ejecutarse.
+* Cada proceso tiene su [PC][34_1] o program counter.
+* El PC se incrementa cuando el proceso esta corriendo.
 
 
-Cambio de contexto
+[34_1]:https://es.wikipedia.org/wiki/Contador_de_programa
+
+
+## 3.5. Cambio de contexto ✔
+
 
 ---
 ## Mas Recursos
