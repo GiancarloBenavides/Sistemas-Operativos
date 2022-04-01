@@ -222,6 +222,8 @@ El [planificador][5_0] es un componente del sistema operativo que elije un proce
 
 
 ## 5.1. Niveles de planificación ✔
+Los nombres sugieren la frecuencia relativa con la que se realizan sus funciones:
+
 * [__Long term scheduler__][42_1]: planificador de largo plazo.
 * [__Mid term scheduler__][42_1]: planificador de medio plazo o intercambiador.
 * [__Short term scheduler__][42_1]: planificador de corto plazo o despachador.
@@ -231,7 +233,7 @@ El [planificador][5_0] es un componente del sistema operativo que elije un proce
 * Controla el grado de [__multi-programación__][51_1].
 * Determina qué programas son admitidos para ejecución.
 * Ingresa los procesos a la lista de listos o __Ready__.
-* Requiere la menor latencia posible.
+* Requiere la adecuada combinación de CPU-bound y I/O-bound.
 
 [51_1]:https://es.wikipedia.org/wiki/Multiprogramaci%C3%B3n
 
@@ -240,7 +242,7 @@ El [planificador][5_0] es un componente del sistema operativo que elije un proce
 * Controla la [__memoria virtual__][51_2].
 * Determina que procesos intercambiar.
 * Mueve procesos entre memoria principal y disco.
-* Requiere la menor latencia posible.
+* Requiere optimizar el espacio en memoria principal.
 
 [51_2]:https://es.wikipedia.org/wiki/Memoria_virtual
 
@@ -255,7 +257,7 @@ El [planificador][5_0] es un componente del sistema operativo que elije un proce
 
 
 ## 5.2. Tiempos ✔
-* [__Arrival time__][42_1] [ $t_a$ ]: tiempo de arribo.
+* [__Arrival time__][42_1] [ $ t_a $ ]: tiempo de arribo.
 * [__Burst time__][42_1] [ $t_b$ ]: tiempo de ráfaga.
 * [__Waiting time__][42_1] [ $t_w$ ]: tiempo de espera.
 * [__Response time__][42_1] [ $R_t$ ]: tiempo de respuesta.
