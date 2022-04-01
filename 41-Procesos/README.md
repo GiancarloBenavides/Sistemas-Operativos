@@ -102,6 +102,11 @@ Los [modos de procesamiento][2_0] son los modos de operación de las CPU de algu
 [22_1]:https://es.wikipedia.org/wiki/Llamada_al_sistema
 
 
+## 2.3 Diagrama modo dual ✔
+
+![diagrama de modos](img/operating_modes.svg "Modos de la CPU")
+
+
 # 3. El contexto
 El [contexto][3_0] de la CPU esta formado por los valores almacenados en sus registros, incluyendo el contador de programa, los registros de estado y los registros de propósito general.
 
@@ -198,13 +203,105 @@ El [IPC][4_0] es una función básica de los sistemas operativos que permite a l
 [43_1]:https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)
 
 
+```ps
+# listar los directorios log
+ls -l | grep LOG
+
+# listar los procesos de consola 
+ps aux | grep bash | more
+```
+
+
 # 5. El planificador
-El [contexto][5_0] de la CPU esta formado por los valores almacenados en sus registros, incluyendo el contador de programa, los registros de estado y los registros de propósito general.
+El [planificador][5_0] es un componente del sistema operativo que elije un proceso entre los que están listos para ser ejecutados.
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
 [5_0]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+
+
+## 5.1. Niveles de planificación ✔
+* [__Long term scheduler__][42_1]: planificador de largo plazo.
+* [__Mid term scheduler__][42_1]: planificador de medio plazo o intercambiador.
+* [__Short term scheduler__][42_1]: planificador de corto plazo o despachador.
+
+
+### 5.1.1 Planificador de largo plazo ✔
+* Controla el grado de [__multi-programación__][51_1].
+* Determina qué programas son admitidos para ejecución.
+* Ingresa los procesos a la lista de listos o __Ready__.
+* Requiere la menor latencia posible.
+
+[51_1]:https://es.wikipedia.org/wiki/Multiprogramaci%C3%B3n
+
+
+### 5.1.2. Planificador de medio plazo ✔
+* Controla la [__memoria virtual__][51_2].
+* Determina que procesos intercambiar.
+* Mueve procesos entre memoria principal y disco.
+* Requiere la menor latencia posible.
+
+[51_2]:https://es.wikipedia.org/wiki/Memoria_virtual
+
+
+### 5.1.3. Planificador de corto plazo ✔
+* Controla el [__cambio de contexto__][51_3].
+* Determina el modo de operación de la CPU.
+* Carga el contexto almacenado en la PCB.
+* Requiere la menor latencia posible.
+
+[51_3]:https://es.wikipedia.org/wiki/Cambio_de_contexto
+
+
+## 5.2. Tiempos ✔
+* [__Arrival time__][42_1] [ $t_a$ ]: tiempo de arribo.
+* [__Burst time__][42_1] [ $t_b$ ]: tiempo de ráfaga.
+* [__Waiting time__][42_1] [ $t_w$ ]: tiempo de espera.
+* [__Response time__][42_1] [ $R_t$ ]: tiempo de respuesta.
+* [__Turnaround time__][42_1] [ $T_t$ ]: tiempo de retorno.
+
+$$
+R_t = t_a + t_w \\
+T_t = R_t + t_b \\
+$$
+
+## 5.3. Indicadores ✔
+* [__Utilization__][42_1] [ $U$ ]: porcentaje de uso de la unidad de procesamiento.
+* [__Throughput__][42_1] [ $T$ ]: número de procesos completados por unidad de tiempo.
+* [__Average wait time__][42_1] [ $A$ ]: tiempo promedio de espera.
+
+
+## 5.4. Políticas de planificación ✔
+* [__First Come First Served__][54_1] [ FCFS ]: se ejecuta en el orden que llega a la cola.
+* [__Shortest Job First__][54_2] [ SJF ]: se ejecuta el mas corto.
+* [__Shortest remaining time__][54_3] [ SRTF ]: se ejecuta el mas corto.
+* [__Round Robin__][54_1] [ RR ]: se ejecutan equitativamente por un tiempo estático.
+* [__Completely Fair Scheduler__][54_1] [ CFS ]: se ejecutan por un tiempo proporcional.
+
+[54_1]:https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)#
+[54_2]:https://en.wikipedia.org/wiki/Shortest_job_next
+[54_3]:https://en.wikipedia.org/wiki/Shortest_remaining_time
+[54_4]:https://en.wikipedia.org/wiki/Round-robin_scheduling
+[54_5]:https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
+
+
+## 5.5. Tipos de planificador ✔
+* Cooperative scheduler
+* Preemptive scheduler
+* Multilevel feedback queue
+
+
+
+
+
+## 5.2. Secuencia de pasos del despachador ✔
+1. Cargar el contexto almacenado en la PCB.
+1. Cambio modo de operación según se requiera.
+1. Salto a la instrucción almacenada en el PC.
+
+* Entrega el control de la CPU al proceso seleccionado.
+* Cargar el contexto almacenado en la PCB.
 
 
 
