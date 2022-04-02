@@ -257,21 +257,21 @@ Los nombres sugieren la frecuencia relativa con la que se realizan sus funciones
 
 
 ## 5.2. Tiempos ✔
-* [__Arrival time__][42_1] [ $ t_a $ ]: tiempo de arribo.
-* [__Burst time__][42_1] [ $t_b$ ]: tiempo de ráfaga.
-* [__Waiting time__][42_1] [ $t_w$ ]: tiempo de espera.
-* [__Response time__][42_1] [ $R_t$ ]: tiempo de respuesta.
-* [__Turnaround time__][42_1] [ $T_t$ ]: tiempo de retorno.
+* [__Arrival time__][42_1] [ _t<sub>a</sub>_ ]: tiempo de arribo.
+* [__Burst time__][42_1] [ _t<sub>b</sub>_ ]: tiempo de ráfaga.
+* [__Waiting time__][42_1] [ _t<sub>w</sub>_ ]: tiempo de espera.
+* [__Response time__][42_1] [ _R<sub>t</sub>_ ]: tiempo de respuesta.
+* [__Turnaround time__][42_1] [ _T<sub>t</sub>_ ]: tiempo de retorno.
 
-$$
-R_t = t_a + t_w \\
-T_t = R_t + t_b \\
-$$
+<p align="center"><i>R<sub>t</sub> = t<sub>a</sub> + t<sub>w</sub></i></p>
+<p align="center"><i>T<sub>t</sub> = R<sub>t</sub> + t<sub>b</sub></i></p>
 
 ## 5.3. Indicadores ✔
-* [__Utilization__][42_1] [ $U$ ]: porcentaje de uso de la unidad de procesamiento.
-* [__Throughput__][42_1] [ $T$ ]: número de procesos completados por unidad de tiempo.
-* [__Average wait time__][42_1] [ $A$ ]: tiempo promedio de espera.
+* [__Utilization__][42_1] [ _U_ ]: porcentaje de uso de la unidad de procesamiento.
+* [__Throughput__][42_1] [ _T_ ]: número de procesos completados por unidad de tiempo.
+* [__Average wait time__][42_1] [ _A_ ]: tiempo promedio de espera.
+
+<p align="center"><i>A = 1/<sub>n</sub> . ∑<sub>n</sub> T<sub>t</sub></i></p>
 
 
 ## 5.4. Políticas de planificación ✔
