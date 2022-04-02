@@ -113,7 +113,7 @@ El [contexto][3_0] de la CPU esta formado por los valores almacenados en sus reg
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
-[3_0]:
+[3_0]:https://es.wikipedia.org/wiki/Contexto_(inform%C3%A1tica)#
 
 
 ## 3.1. Bloque descriptor de proceso ✔
