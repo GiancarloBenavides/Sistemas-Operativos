@@ -113,7 +113,7 @@ El [contexto][3_0] de la CPU esta formado por los valores almacenados en sus reg
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
-[3_0]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+[3_0]:
 
 
 ## 3.1. Bloque descriptor de proceso ✔
@@ -218,7 +218,7 @@ El [planificador][5_0] es un componente del sistema operativo que elije un proce
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
-[5_0]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+[5_0]:https://es.wikipedia.org/wiki/Planificador
 
 
 ## 5.1. Niveles de planificación ✔
@@ -289,34 +289,27 @@ Los nombres sugieren la frecuencia relativa con la que se realizan sus funciones
 
 
 ## 5.5. Tipos de planificador ✔
-* Cooperative scheduler
-* Preemptive scheduler
-* Multilevel feedback queue
+* [__Cooperative scheduler__][55_1]: para multi-tarea cooperativa.
+* [__Preemptive scheduler__][55_2]: para multi-tarea apropiativa.
+
+[55_1]:https://es.wikipedia.org/wiki/Multitarea_cooperativa
+[55_2]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
 
 
+## 5.6. Tipos de cola ✔
+* [__Simple queue__][56_1]: secuencia de elementos donde inserción y extracción se realizan por extremos opuestos.
+* [__Priority queue__][56_2]: los elementos de la secuencia ordenada tienen adicionalmente, una prioridad asignada.
+* [__Multilevel queue__][56_3]: los elementos de la secuencia se asignan a un nivel predefinido en la inserción.
+* [__Multilevel feedback queue__][56_4]: los elementos de la secuencia se cambian de nivel después de la inserción.
 
-
-
-## 5.2. Secuencia de pasos del despachador ✔
-1. Cargar el contexto almacenado en la PCB.
-1. Cambio modo de operación según se requiera.
-1. Salto a la instrucción almacenada en el PC.
-
-* Entrega el control de la CPU al proceso seleccionado.
-* Cargar el contexto almacenado en la PCB.
-
-
-
+[56_1]:https://en.wikipedia.org/wiki/Queue_(abstract_data_type)#
+[56_2]:https://en.wikipedia.org/wiki/Priority_queue
+[56_3]:https://en.wikipedia.org/wiki/Multilevel_queue
+[56_4]:https://en.wikipedia.org/wiki/Multilevel_feedback_queue
 
 
 ---
 ## Mas Recursos
-- [Emulador](https://es.wikipedia.org/wiki/Emulador) (Wikipedia)
-- [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
-- [Computación en la nube](https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube) (Wikipedia)
-- [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
-- [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
-- [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Google Compute Engine](https://en.wikipedia.org/wiki/Google_Compute_Engine) (Wikipedia)
-- [IBM Cloud VS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Oracle Cloud VM](https://es.wikipedia.org/wiki/Oracle_Cloud) (Wikipedia)
+- [Teoría de colas](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_colas) (Wikipedia)
+- [Lottery scheduling](https://en.wikipedia.org/wiki/Lottery_scheduling) (Wikipedia)
+- [Stochastic scheduling](https://en.wikipedia.org/wiki/Stochastic_scheduling) (Wikipedia)

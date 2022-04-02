@@ -7,12 +7,13 @@ La gestión consiste en que el sistema operativo asume responsabilidades sobre l
 
 ## Agenda
 1. [Los archivos](#1-los-archivos).
+1. [Sistema de archivos](#2-sistema-de-archivos).
 
 <br>
 
 ---
 # 1. Los Archivos
-Los [archivos][1_0] Consiste en integrar datos de fuentes dispersas, en distintas localizaciones y formatos, sin replicar los datos, para construir una capa de datos virtual que facilita la provisión de servicios de datos unificados para dar soporte a múltiples aplicaciones y usuarios.
+Un [archivos][1_0] es un conjunto de bits que son almacenados en un dispositivo, con el objetivo persistir o de mantener de forma permanente los datos.
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
@@ -20,7 +21,7 @@ Los [archivos][1_0] Consiste en integrar datos de fuentes dispersas, en distinta
 [1_0]:https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_de_datos
 
 
-# 1. Sistema de archivos
+# 2. Sistema de archivos
 
 ![Sistema de archivos](img/linux-filesystem.png "Sistema de archivos")
 
