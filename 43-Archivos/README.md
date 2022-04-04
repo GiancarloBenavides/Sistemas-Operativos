@@ -22,44 +22,59 @@ Un [archivos][1_0] es un conjunto unidimensional de bits que son almacenados en 
 
 
 ## 1.1. La Codificación ✔
+Se entiende por codificación al proceso de conversión de un sistema de datos de origen a otro sistema de datos de destino.
+
 * Sistema de numeración binaria para datos numéricos.
 * Sistema binario para representar datos numéricos y no numéricos.
 
-### 1.1.1. Representación binaria ✔
+## 1.2. Representación binaria ✔
 
 ![Sistema de archivos](img/digital_coding.png "Sistema de archivos")
 
 
-## 1.2. La estructura ✔
+## 1.3. La estructura ✔
 * Depende del tipo de archivo.
 * Depende del sistema operativo.
 * Tamaño máximo dependiente del sistema.
 
 
-## 1.3 Ejemplos ✔
-* [Archivo de texto plano][13_1].
-* [Archivo de programa][13_2].
-* [Archivo de sistema operativo][13_3].
-* [Aplicaciones ejecutables][13_4].
-* [Archivo virtual][13_5].
+## 1.4. Tipos de archivo ✔
+* [Archivo de texto plano][14_1].
+* [Archivo de programa][14_2].
+* [Aplicaciones ejecutables][14_3].
+* [Archivo de sistema operativo][14_4].
+* [Archivo virtual][14_5].
 
-[13_1]:https://es.wikipedia.org/wiki/Archivo_de_texto
-[13_2]:https://en.wikipedia.org/wiki/List_of_file_formats
-[13_3]:https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica)#
-[13_4]:https://es.wikipedia.org/wiki/Ejecutable
-[13_5]:https://es.wikipedia.org/wiki/Archivo_de_dispositivo
+[14_1]:https://es.wikipedia.org/wiki/Archivo_de_texto
+[14_2]:https://en.wikipedia.org/wiki/List_of_file_formats
+[14_3]:https://es.wikipedia.org/wiki/Ejecutable
+[14_4]:https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica)#
+[14_5]:https://es.wikipedia.org/wiki/Archivo_de_dispositivo
+
+
+## 1.5. Los formatos ✔
+* Metadata ([file signatures][15_1])
+* Extensiones ([file formats][15_2])
+
+[15_1]:https://en.wikipedia.org/wiki/List_of_file_signatures
+[15_2]:https://en.wikipedia.org/wiki/List_of_file_formats
+
+
+## 1.6. Ejecutables ✔
+Son archivos binarios interpretados por el sistema operativo como programas y su estructura varia según el sistema pero podría incluir códigos, datos, variables y símbolos de depuración:
 
 ![Sistema de archivos](img/executable_file.svg "Sistema de archivos")
 
 
-## 1.4. Los atributos ✔
+## 1.7. Los atributos ✔
 * Atributos de seguridad (dueño, contraseña)
 * Atributos de protección (permisos de rwx)
+* Atributos de tiempo (creación, modificación y acceso)
 * Atributos de estado (oculto, bloqueado, temporal)
 * Atributos de comprobación (tamaño del registro y archivo)
 
 
-## 1.5. El nombre ✔
+## 1.8. El nombre ✔
 * Incluye nombre del archivo y una o mas extensiones.
 * La extension puede ayudar al SO a identificar el tipo.
 * Existe un limite para el nombre y la ruta del archivo.
@@ -82,7 +97,7 @@ El [Sistema de archivos][2_0] es un elemento que controla cómo se almacenan y r
 * NTFS, [New technology file system][22_1]: (windows).
 * EXT, [Extended file system][22_2]: (Linux).
 * APFS, [Apple File System][22_3]: (macOS).
-* exFAT, [Extended File Allocation Table][22_4]: (Extraibles).
+* exFAT, [Extended File Allocation Table][22_4]: (Medios extraíbles).
 
 [22_1]:https://es.wikipedia.org/wiki/NTFS
 [22_2]:https://es.wikipedia.org/wiki/Extended_file_system
