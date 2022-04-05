@@ -61,7 +61,7 @@ Se entiende por codificación al proceso de conversión de un sistema de datos d
 
 
 ## 1.6. Ejecutables ✔
-Son archivos binarios interpretados por el sistema operativo como programas y su estructura varia según el sistema pero podría incluir códigos, datos, variables y símbolos de depuración:
+Son archivos binarios interpretados por el sistema operativo como programas y su estructura varia según el sistema pero podría incluir un numero mágico, códigos, datos, variables y símbolos de depuración:
 
 ![Sistema de archivos](img/executable_file.svg "Sistema de archivos")
 
@@ -87,6 +87,7 @@ El [Sistema de archivos][2_0] es un elemento que controla cómo se almacenan y r
 <cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
 [2_0]:https://es.wikipedia.org/wiki/Sistema_de_archivos
+
 
 ## 2.1. Tipos de sistemas de archivos ✔
 * Sistema de archivos de disco.
@@ -188,12 +189,7 @@ Contiene binarios, archivos, documentación y recursos de segundo nivel
 * Sirve para montar dispositivos removibles como CD-ROM, Floppy Disk, cintas, etc
 * Actualmente muy en desuso, se suele utilizar /mnt
 
-
 [23_0]:https://es.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
-
-
-
-
 
 
 ---
