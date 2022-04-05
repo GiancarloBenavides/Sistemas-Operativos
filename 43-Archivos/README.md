@@ -194,12 +194,7 @@ Contiene binarios, archivos, documentación y recursos de segundo nivel
 
 ---
 ## Mas Recursos
-- [Emulador](https://es.wikipedia.org/wiki/Emulador) (Wikipedia)
-- [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
-- [Computación en la nube](https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube) (Wikipedia)
-- [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
-- [Microsoft Azure VM](https://es.wikipedia.org/wiki/Microsoft_Azure) (Wikipedia)
-- [Alibaba Cloud ECS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Google Compute Engine](https://en.wikipedia.org/wiki/Google_Compute_Engine) (Wikipedia)
-- [IBM Cloud VS](https://en.wikipedia.org/wiki/IBM_Cloud) (Wikipedia)
-- [Oracle Cloud VM](https://es.wikipedia.org/wiki/Oracle_Cloud) (Wikipedia)
+- [Filesystem Hierarchy Standard](https://es.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) (Wikipedia)
+- [Programa informático](https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico) (Wikipedia)
+- [Número mágico](https://es.wikipedia.org/wiki/N%C3%BAmero_m%C3%A1gico_(inform%C3%A1tica)) (Wikipedia)
+- [Ejecutables](https://es.wikipedia.org/wiki/Ejecutable) (Wikipedia)
