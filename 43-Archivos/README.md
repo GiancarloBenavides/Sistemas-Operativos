@@ -93,6 +93,10 @@ El [Sistema de archivos][2_0] es un elemento que controla cómo se almacenan y r
 * Sistema de archivos de disco.
 * Sistemas de archivos de red.
 
+![HDD](img/hard_disk.png "Hard Disk")
+
+Source: 1:[Castillo, J (2020). PMR, CMR y SMR: Qué es y como escribe los datos tu disco duro.](https://www.profesionalreview.com/2020/05/11/pmr-cmr-y-smr-que-es/) 2:[El android feliz (2022). ¿Por qué las memorias siempre tienen menos espacio libre del anunciado?](https://www.protoexpress.com/blog/ddr4-vs-ddr5-the-best-ram/)
+
 
 ## 2.2. Ejemplos ✔
 * NTFS, [New technology file system][22_1]: (windows).
@@ -109,7 +113,6 @@ El [Sistema de archivos][2_0] es un elemento que controla cómo se almacenan y r
 ## 2.3. Sistema de archivos linux ✔
 
 ![Sistema de archivos](img/linux-filesystem.png "Sistema de archivos")
-
 
 ### [/][23_0] – Directorio raíz  ✔
 * Todo archivo o directorio empieza desde el root.

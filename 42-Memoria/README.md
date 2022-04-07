@@ -97,6 +97,10 @@ La [memoria principal][1_0] es la memoria de la computadora donde se almacenan t
 [17_4]:https://en.wikipedia.org/wiki/DDR4_SDRAM
 [17_5]:https://en.wikipedia.org/wiki/DDR5_SDRAM
 
+![Memorias DDR](img/memory_ddr.png "Memorias DDR")
+
+Source: 1:[Rodrigo, A (2021). Memoria RAM DDR, DDR2, DDR3, DDR4 y DDR5, ¿cuáles son sus diferencias?.](https://hardzone.es/tutoriales/componentes/diferencias-memoria-ram-ddr/) 2:[Raikar, A. (2021). DDR Memory and the Challenges in PCB Design](https://www.protoexpress.com/blog/ddr4-vs-ddr5-the-best-ram/)
+
 
 # 2. Jerarquía de memoria
 La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en niveles de acceso para optimizar el rendimiento y el costo basándose en el principio de cercanía de referencias.
@@ -112,6 +116,31 @@ tá procesando o va a procesar en un determinado momento.
 ![Jerarquía de almacenamiento](../21-Multitarea/img/memory_hierarchy.svg "jerarquía de memoria")
 
 
+## 2.2. Políticas de Cache ✔
+* El cache puede ser inclusivo o exclusivo.
+* La ubicación puede ser directa o asociativa.
+* La extracción puede ser por demanda o con pre-búsqueda.
+* La escritura en cache puede ser asignada antes de la CPU o al tiempo.
+* Puede ser de escritura inmediata de MP o Post-escritura.
+* La [pila implementada][22_1] puede ser FIFO, LFU o LRU.
+
+[22_1]:https://es.wikipedia.org/wiki/Algoritmo_de_reemplazo_de_p%C3%A1ginas
+
+## 2.3. Niveles de cache ✔
+* [Cache L1][23_2]
+* [Cache L2][23_2]
+* [Cache L3][23_2]
+
+[23_2]:https://en.wikipedia.org/wiki/Cache_hierarchy
+
+## 2.4. Indicadores ✔
+* [Miss rate][24_1]: fallos en la caché.
+* [Miss penalty][24_1]: penalizaciones por fallo.
+* [Hit time][24_1]: tiempo de acceso en caso de acierto.
+
+[24_1]:https://en.wikipedia.org/wiki/Cache_hierarchy
+
+
 # 3. Memoria virtual
 La [memoria virtual][3_0] es una técnica de gestión de la memoria que se encarga de que el sistema operativo disponga una mayor cantidad de memoria de la que esta disponible físicamente.
 
@@ -121,35 +150,76 @@ La [memoria virtual][3_0] es una técnica de gestión de la memoria que se encar
 [3_0]:https://es.wikipedia.org/wiki/Memoria_virtual
 
 
-## 3.1. Paginación de memoria ✔
+## 3.1. Caracteristicas ✔
+* Puede ser contigua o [segmentada][31_1].
+* Puede ser total o [paginada][31_2] en bloques de tamaño fijo.
+* Se puede implementar particiones estáticas o [dinámicas][31_3].
+* Se puede implementar el intercambio a memoria secundaria.
+* Se puede crear un [direcciones unificadas][31_4] para CPU, GPU y DSP.
 
-## 3.2. Tabla de Paginación ✔
+[31_1]:https://es.wikipedia.org/wiki/Segmentaci%C3%B3n_de_memoria
+[31_2]:https://es.wikipedia.org/wiki/Paginaci%C3%B3n_de_memoria
+[31_3]:https://en.wikipedia.org/wiki/Demand_paging
+[31_4]:https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture
 
-## 3.3. Paginación anidada ✔
+
+## 3.2. Técnicas ✔
+
+![Cache](img/segmentation.svg "jerarquía de cache")
 
 
+## 3.3. Paginación de memoria ✔
+* Se puede implementar por software o hardware.
+* Se puede implementar [paginación anidada][33_1] para SO invitados.
+* Puede incluir varios niveles.
+* Incluye una [tabla de traducción][33_2] por cada nivel.
+* Se puede implementar [cache para el nivel superior][33_3].
+
+[33_1]:https://es.wikipedia.org/wiki/Paginaci%C3%B3n_anidada
+[33_2]:https://es.wikipedia.org/wiki/Tabla_de_paginaci%C3%B3n
+[33_3]:https://es.wikipedia.org/wiki/Translation_Lookaside_Buffer
+
+## 3.4. Arquitectura iA-32/x86 ✔
+* Permite direcciones de 32 bits.
+* Permite 2<sup>32</sup> o hasta 4Giga direcciones.
+* Permite 16.383 segmentos de hasta 4GB cada uno.
+* Puede permitir direcciones físicas de 36 bits usando [PAE][34_1].
+* Hasta tres niveles de paginación.
+* Bit de no ejecución o [NX][34_2] por segmento.
+
+[34_1]:https://es.wikipedia.org/wiki/Extensi%C3%B3n_de_direcci%C3%B3n_f%C3%ADsica
+[34_2]:https://es.wikipedia.org/wiki/Bit_NX
+
+
+## 3.5.  Arquitectura x86-64 ✔
+* Permite direcciones de 64 bits.
+* Permite 2<sup>64</sup> o hasta 16Exa de direcciones.
+* Extensión de 64 bits de x86.
+* 16+([9+9+9+9][35_1])+12.
+* Hasta cuatro niveles de paginación.
+* Bit de no ejecución o [NX][34_2] por pagina.
+
+[35_1]:https://es.wikipedia.org/wiki/Tabla_de_paginaci%C3%B3n#Tabla_de_P%C3%A1ginas_Multinivel
+
+
+## 3.6. Paginación de dos niveles ✔
 
 ![Cache](../21-Multitarea/img/pagination.svg "jerarquía de cache")
 
 
-- [tabla](https://es.wikipedia.org/wiki/Tabla_de_paginaci%C3%B3n) (Wikipedia)
-
-- [Paginación anidada](https://es.wikipedia.org/wiki/Paginaci%C3%B3n_anidada) (Wikipedia)
-
-
-
-## 5.2. Secuencia de pasos del despachador ✔
+## 3.7. Secuencia de pasos de un proceso ✔
+1. Asignar espacio de memoria al proceso.
+1. Crear el proceso (contexto) en memoria principal.
 1. Cargar el contexto almacenado en la PCB.
 1. Cambio modo de operación según se requiera.
 1. Salto a la instrucción almacenada en el PC.
-
-
-* Entrega el control de la CPU al proceso seleccionado.
-* Cargar el contexto almacenado en la PCB.
-
+1. Entrega el control de la CPU al proceso seleccionado.
+1. Interrupción por acceso no permitido.
+1. Interrupción del proceso por el planificador.
 
 
 ---
 ## Mas Recursos
-- [Emulador](https://es.wikipedia.org/wiki/Emulador) (Wikipedia)
-- [Simulador](https://es.wikipedia.org/wiki/Simulador) (Wikipedia)
+- [Unidad de gestión de memoria](https://es.wikipedia.org/wiki/Unidad_de_gesti%C3%B3n_de_memoria) (Wikipedia)
+- [Algoritmo de reemplazo de páginas](https://es.wikipedia.org/wiki/Algoritmo_de_reemplazo_de_p%C3%A1ginas) (Wikipedia)
+- [Memoria compartida](https://es.wikipedia.org/wiki/Memoria_compartida) (Wikipedia)

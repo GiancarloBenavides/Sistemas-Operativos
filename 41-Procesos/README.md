@@ -23,6 +23,7 @@ Un [procesos][1_0] en es una tarea en ejecución del sistema operativo que se ca
 
 [1_0]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
 
+
 ## 1.1. Caracteristicas ✔
 * Es el principal concepto en cualquier sistema operativo.
 * Los resultados de un proceso pueden ser operaciones [MM][11_1](Datos) o [I/O][11_2].
@@ -202,7 +203,6 @@ El [IPC][4_0] es una función básica de los sistemas operativos que permite a l
 
 [43_1]:https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)
 
-
 ```ps
 # listar los directorios log
 ls -l | grep LOG
@@ -265,6 +265,7 @@ Los nombres sugieren la frecuencia relativa con la que se realizan sus funciones
 
 <p align="center"><i>R<sub>t</sub> = t<sub>a</sub> + t<sub>w</sub></i></p>
 <p align="center"><i>T<sub>t</sub> = R<sub>t</sub> + t<sub>b</sub></i></p>
+
 
 ## 5.3. Indicadores ✔
 * [__Utilization__][42_1] [ _U_ ]: porcentaje de uso de la unidad de procesamiento.
